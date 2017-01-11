@@ -1,9 +1,6 @@
 # amaral-lab.org
 
--Magic.
-This package automatizes the effort to maintain an up-to-date academic curriculum vitae (CV) using LaTeX.
-
-The premise of this project is that LaTeX is a better system to create a large academic CV than Word.
+The premise for this project is that LaTeX is a better system to create a large academic CV than Word.
 Unfortunately, the choice of LaTeX means that the number of people able to help maintain the CV up-to-date
 is not large. This is due to the fact that most, if not all, academic support staff lacks experience with
 LaTeX.
