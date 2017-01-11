@@ -1,0 +1,103 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%
+%% Modified by Luis A. Nunes Amaral on Jan 2017.
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TeX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \documentclass[a4paper,10pt,oneside]{article}
+\documentclass[letterpaper,10pt,oneside]{article}
+
+%%%%%%%%%%%%%% TYPESETTING OPTIONS.
+\newcommand{\TypesetInNonStopMode}{1}
+\newcommand{\TypesetInDraftMode}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./Tex_files/CV-Preamble.tex}
+
+\input{./Tex_files/variables}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%
+%% In order to have specific sections start on new pages, please
+%% adjust spacing in \hspace{} commands below
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%% TITLE BLOCK
+\input{./Tex_files/title_block}
+
+%%%%%%%%%%%%%%  BODY 
+\normalfont
+\begin{body}
+
+\vspace*{-0.5cm}
+%%%%%%%%%%%%%%  APPOINTMENTS 
+\include{./Tex_files/appointments}
+
+\vspace*{-1.8cm}
+%%%%%%%%%%%%%% EDUCATION AND PROFESSIONAL AFFILIATIONS
+\include{./Tex_files/education}
+
+\vspace*{-1.8cm}
+\include{./Tex_files/affiliations}
+
+\vspace*{-1.8cm}
+%%%%%%%%%%%%%%  HONORS AND AWARDS  
+\include{./Tex_files/honors}
+
+\vspace*{-1.8cm}
+%%%%%%%%%%%%%%  PROFESSIONAL SERVICE 
+\include{./Tex_files/service}
+
+\vspace*{-1.8cm}
+%%%%%%%%%%%%%%  RESEARCH SUPPORT 
+\include{./Tex_files/support}
+
+\vspace*{12.0cm}
+%%%%%%%%%%%%%%  MENTORING 
+\include{./Tex_files/mentoring}
+
+\vspace*{8.0cm}
+%%%%%%%%%%%%%%  PUBLICATIONS 
+\include{./Tex_files/publications}
+
+\vspace*{-2.5cm}
+%%%%%%%%%%%%%%  PRESENTATIONS 
+\include{./Tex_files/presentations}
+
+\end{body}
+
+%%%%%%%%%%%%%% CV NOTE
+\begin{flushright}
+\UseNoteFont%
+[\textit{\CVNote}]%
+\hspace{2.0mm}\null
+\end{flushright}
+
+\label{LastPage}~
+\end{document}
