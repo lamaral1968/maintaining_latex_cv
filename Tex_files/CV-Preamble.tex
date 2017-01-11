@@ -1,0 +1,334 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Run in non-stop mode.
+\ifnum\TypesetInNonStopMode=1
+\nonstopmode
+\fi
+
+% Geometry package for page margins.
+\usepackage[
+left=0.70in,
+right=0.70in,
+top=0.60in,
+bottom=0.45in,
+nohead,
+includefoot]{geometry}
+
+% PDF settings and properties.
+\usepackage{hyperref}
+
+% For including photo of CV_Author
+\usepackage{graphicx}
+
+% Long table for page layout.
+\usepackage{longtable}
+
+% Hyphenation: Disabled.
+\usepackage[none]{hyphenat}
+
+% Colors.
+\usepackage[usenames]{color}
+% \definecolor{MyDarkBlue}{RGB}{0,90,160}
+% {\color{MyDarkBlue}This text is dark blue}
+
+% Define horizontal line
+\newcommand{\colorrule}[3]{{\color{#1}\rule{#3}{#2}}}
+
+% Current date and time.
+\usepackage[yyyymmdd,24hr]{datetime}
+\renewcommand{\dateseparator}{-}
+\settimeformat{xxivtime}
+% {\today}~{\currenttime}
+
+% Timestamp.
+\newcommand{\Timestamp}{{\yyyymmdddate\today}~{\currenttime}}
+
+% Abbreviations for months.
+\newcommand{\LongMonth}[1]{%
+\ifcase#1\relax
+\or January%
+\or February%
+\or March%
+\or April%
+\or May%
+\or June%
+\or July%
+\or August%
+\or September%
+\or October%
+\or November%
+\or December%
+\fi}
+\newcommand{\ShortMonth}[1]{%
+\ifcase#1\relax
+\or Jan%
+\or Feb%
+\or Mar%
+\or Apr%
+\or May%
+\or Jun%
+\or Jul%
+\or Aug%
+\or Sep%
+\or Oct%
+\or Nov%
+\or Dec%
+\fi}
+
+% Select datestamp format.
+\def\DatestampFormatSelection{2}
+
+% Datestamp format: {yyyy}{MM}{dd} ---> yyyy-MM-dd (e.g., 2010-12-31).
+\ifnum\DatestampFormatSelection=1
+\newcommand{\DatestampYMD}[3]{\mbox{#1-#2-#3}}
+\newcommand{\DatestampYM}[2]{\mbox{#1-#2}}
+\newcommand{\DatestampY}[1]{#1}
+\fi
+
+% Datestamp format: {yyyy}{MM}{dd} ---> MMM yyyy (e.g., Dec 2010).
+\ifnum\DatestampFormatSelection=2
+\newcommand{\DatestampYMD}[3]{\mbox{\ShortMonth{#2} #1}}
+\newcommand{\DatestampYM}[2]{\mbox{\ShortMonth{#2} #1}}
+\newcommand{\DatestampY}[1]{#1}
+\fi
+
+% Datestamp format: {yyyy}{MM}{dd} ---> MMMM yyyy (e.g., December 2010).
+\ifnum\DatestampFormatSelection=3
+\newcommand{\DatestampYMD}[3]{\mbox{\LongMonth{#2} #1}}
+\newcommand{\DatestampYM}[2]{\mbox{\LongMonth{#2} #1}}
+\newcommand{\DatestampY}[1]{#1}
+\fi
+
+% Datestamp format: {yyyy}{MM}{dd} ---> yyyy (e.g., 2010).
+\ifnum\DatestampFormatSelection=4
+\newcommand{\DatestampYMD}[3]{#1}
+\newcommand{\DatestampYM}[2]{#1}
+\newcommand{\DatestampY}[1]{#1}
+\fi
+
+% XeLaTeX packages.
+%\usepackage{fontspec}
+%\defaultfontfeatures{Ligatures=TeX}
+%\usepackage{xunicode}
+%\usepackage{xltxtra}
+
+\usepackage[T1]{fontenc}
+%rmfamily
+%\usepackage{ebgaramond}
+\usepackage{baskervillef} 
+% ttfamily
+\usepackage[varqu,varl,var0]{inconsolata} 
+% sffamily
+%\usepackage[scale=.95,type1]{cabin} 
+%\usepackage{lmodern}
+%\usepackage[light=true,scale=.95,type1]{Chivo} 
+%\usepackage{cmbright} 
+% math fonts
+\usepackage[baskervillef,vvarbb]{newtxmath}
+\usepackage[cal=boondoxo]{mathalfa}
+
+% Font: Use "Tinos" as the main typeface (\textnormal{}, \normalfont).
+% The "Tinos" fonts are released under the Apache License Version 2.0,
+% and can be downloaded for free at <http://www.fontsquirrel.com/fonts/tinos>.
+% Symbol table: <http://www.fileformat.info/info/unicode/font/tinos/grid.htm>
+%\setmainfont
+%[Path=./Fonts/Tinos/,
+%ItalicFont=Tinos-Italic,
+%BoldFont=Tinos-Bold,
+%BoldItalicFont=Tinos-BoldItalic]
+%{Tinos-Regular.ttf}
+
+%\setmainfont{baskervillef}
+
+% Secondary font: "GNU FreeFont".
+% The "GNU FreeFont" fonts are released under the
+% GNU General Public License Version 3, and can be downloaded
+% for free at <https://savannah.gnu.org/projects/freefont/>.
+%\newcommand{\UseSecondaryFont}{\fontspec
+%[Path=./Fonts/GNUFreeFont/,
+%ItalicFont=FreeSerifItalic,
+%BoldFont=FreeSerifBold,
+%BoldItalicFont=FreeSerifBoldItalic]
+%{FreeSerif.otf}}
+
+% Sans-serif font: Changed to "Tinos".
+\renewcommand{\sffamily}{phv}
+
+% Typewriter (monospace) font: Changed to "Tinos".
+\renewcommand{\ttfamily}{inconsolata}
+
+% Small caps font: Changed to "Tinos".
+\renewcommand{\scshape}{\rmfamily}
+%\renewcommand{\textsc}[1]{\textbf{\MakeUppercase{#1}}}
+
+% Font styles.
+\newcommand{\UseHeadingFont}{\normalfont}
+\newcommand{\UseHeaderFooterFont}{\UseHeadingFont\footnotesize}
+\newcommand{\UseNoteFont}{\UseHeadingFont\fontsize{8pt}{9.6pt}\selectfont}
+\newcommand{\UseTitleFont}{\UseHeadingFont\fontsize{28pt}{33.6pt}\selectfont\bfseries}
+\newcommand{\UseSectionFont}{\fontfamily{\sffamily}\selectfont \bfseries \color{CVColor}}
+\newcommand{\UseSubSectionFont}{\fontfamily{\sffamily}\selectfont \bfseries \color{CVColor}}
+\newcommand{\UseDetailFont}{\normalfont\fontsize{8.6pt}{10.3pt}\selectfont}
+
+% Symbols (unicode).
+\newcommand{\BulletSymbol}{{\normalfont\fontsize{6.5}{7.8}\selectfont\raisebox{0.17em}{\char"25A0}}}
+\newcommand{\SubBulletSymbol}{{\normalfont\fontsize{6}{7.2}\selectfont\raisebox{0.17em}{\char"25CF}}}
+\newcommand{\TildeSymbol}{{\normalfont\char"007E}}
+
+% Headers and footers: Blank header, page number in footer.
+%\usepackage{fancyhrd}
+%\pagestyle{fancy}
+%\fancyhf{}
+%\fancyhead[L]{}
+%\fancyhead[C]{}
+%\fancyhead[R]{\CVTitle}
+%\renewcommand{\headrulewidth}{0.4pt}
+%\fancyfoot[L]{}
+%\fancyfoot[C]{\UseHeaderFooterFont {Page}~{\thepage}~of~\pageref{LastPage}}
+%\fancyfoot[R]{}
+%\renewcommand{\footrulewidth}{0.4pt}
+\ifnum\TypesetInDraftMode=0
+\newcommand{\HeaderText}{}
+\newcommand{\FooterText}{\UseHeaderFooterFont\CVTitle\hfill%
+{Page}~{\thepage}~of~\pageref{LastPage}}
+\else
+\newcommand{\HeaderText}{\hfill \CVTitle}
+\newcommand{\FooterText}{\UseHeaderFooterFont%
+\hphantom{DRAFT~\Timestamp}\hfill%
+{Page}~{\thepage}~of~\pageref{LastPage}%
+\hfill{\color{red}DRAFT~\Timestamp}}
+\fi
+
+\makeatletter
+\def\ps@plain{%
+\def\@oddhead{\HeaderText}%
+\def\@evenhead{\HeaderText}%
+\def\@oddfoot{\FooterText}%
+\def\@evenfoot{\FooterText}}
+\makeatother
+
+\pagestyle{plain}
+
+% Paragraph style.
+\setlength{\parindent}{0in} % No indentation at the beginning of each paragraph.
+\setlength{\parskip}{0in} % No vertical space between paragraphs.
+
+% Footnotes: Use symbols instead of numbers for labels.
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+
+% Macro: addname
+\newcommand{\addname}[1]{%
+\par\vspace*{-0.3cm} %
+\par{\huge\fontfamily{\sffamily}\selectfont\textbf{\hspace*{0.2cm}#1}}%
+\par}
+
+% Macro: addphoto
+\newcommand{\addphoto}[1]{%
+\par\vspace*{-0.1cm} %
+\par\begin{figure}[h]%
+\par\hspace*{0.80\textwidth} \includegraphics[width=0.2\textwidth]{#1}%
+\par\end{figure}%
+\par}
+
+% Macro: title (name).
+\renewcommand{\title}[1]{%
+\pdfbookmark[1]{#1}{#1}%
+\par\begin{center}%
+\par\UseTitleFont%
+{#1}%
+\par\end{center}%
+\par\vspace{-1.75em}\par}
+
+% Macro: subtitle (personal information below name).
+\newenvironment{subtitle}
+{\par\begin{center}%
+\par\UseSubTitleFont}
+{\par\end{center}\par}
+
+% Macro: body (rest of the document).
+\newenvironment{body}
+{\par\vspace{-1em}\par
+\begin{longtable}{p{0.15\textwidth}p{0.80\textwidth}}}
+{\par\end{longtable}\par}
+
+% Macro: section (new section for Education, Research Experience, etc.).
+\renewcommand{\section}[3]{\\[-1em]\pdfbookmark[2]{#2}{#3}\\%
+{\UseSectionFont\raggedright\MakeUppercase{#1}}%
+&}
+
+% Macro: subsection.
+\renewcommand{\subsection}[3]{\par~\vskip-\baselineskip%
+\pdfbookmark[3]{#2}{#3}\par%
+{\UseSubSectionFont\raggedright{#1}}%
+\vspace{0.225\baselineskip}}
+
+% Macro: BigGap, BigGapNoBreak (big vertical gap between items in the same section).
+\newcommand{\BigGap}{\\[-1.75mm]~&}
+\newcommand{\BigGapNoBreak}{\par\vspace{2.45mm}\par}
+
+% Macro: Gap, GapNoBreak (vertical gap between items in the same section).
+\newcommand{\Gap}{\\[-3.5mm]~&}
+\newcommand{\GapNoBreak}{\par\vspace{0.7mm}\par}
+
+% Macro: detail (text in smaller font under an item).
+\newenvironment{detail}
+{\par\begingroup\UseDetailFont}
+{\par\endgroup\par}
+
+% Macro: BulletItem.
+\newsavebox{\BulletItemIndentation}
+\newlength{\BulletItemIndentationWidth}
+\newcommand{\BulletItem}{\par%
+\savebox{\BulletItemIndentation}{\hspace{1.5mm}\BulletSymbol\hspace{1.25mm}}%
+\settowidth{\BulletItemIndentationWidth}{\usebox{\BulletItemIndentation}}%
+\noindent\hangafter=1\hangindent=\BulletItemIndentationWidth\ignorespaces%
+\usebox{\BulletItemIndentation}\ignorespaces}
+
+% Macro: SubBulletItem.
+\newsavebox{\SubBulletItemIndentation}
+\newlength{\SubBulletItemIndentationWidth}
+\newcommand{\SubBulletItem}{\par%
+\savebox{\SubBulletItemIndentation}{\hspace{5.6mm}\SubBulletSymbol\hspace{1.25mm}}%
+\settowidth{\SubBulletItemIndentationWidth}{\usebox{\SubBulletItemIndentation}}%
+\noindent\hangafter=1\hangindent=\SubBulletItemIndentationWidth\ignorespaces%
+\usebox{\SubBulletItemIndentation}\ignorespaces}
+
+% Macro: Item.
+\newsavebox{\ItemIndentation}
+\newlength{\ItemIndentationWidth}
+\newcommand{\Item}{\par%
+\savebox{\ItemIndentation}{\hphantom{\hspace{1.5mm}\BulletSymbol\hspace{1.25mm}}}%
+\settowidth{\ItemIndentationWidth}{\usebox{\ItemIndentation}}%
+\noindent\hangafter=1\hangindent=\ItemIndentationWidth\ignorespaces%
+\usebox{\ItemIndentation}\ignorespaces}
+
+% Macro: SubItem.
+\newsavebox{\SubItemIndentation}
+\newlength{\SubItemIndentationWidth}
+\newcommand{\SubItem}{\par%
+\savebox{\SubItemIndentation}{\hphantom{\hspace{1.5mm}\BulletSymbol\hspace{1.25mm}}}%
+\settowidth{\SubItemIndentationWidth}{\usebox{\SubItemIndentation}}%
+\noindent\hangafter=1\hangindent=\SubItemIndentationWidth\ignorespaces%
+\usebox{\SubItemIndentation}\ignorespaces}
+
+% Macro: NumberedItem.
+\newsavebox{\NumberedItemIndentation}
+\newlength{\NumberedItemIndentationWidth}
+\newcommand{\NumberedItem}[1]{\par%
+\savebox{\NumberedItemIndentation}{{#1}\hspace{2.3mm}}%
+\settowidth{\NumberedItemIndentationWidth}{\usebox{\NumberedItemIndentation}}%
+\noindent\hangafter=1\hangindent=\NumberedItemIndentationWidth\ignorespaces%
+\usebox{\NumberedItemIndentation}\ignorespaces}
+
+% Macro: CharSpace (for aligning single-digit numbers).
+\newlength{\CharWidth}
+\newcommand{\CharSpace}{\settowidth{\CharWidth}{8}\hspace{\CharWidth}}
+
+% Macro: hide.
+\newcommand{\hide}[1]{}
