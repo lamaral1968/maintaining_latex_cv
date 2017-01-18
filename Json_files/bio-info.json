@@ -1,0 +1,27 @@
+{
+    "Order": [
+        "Sheet1"
+    ],
+    "Sheet1": [
+        {
+            "CVAddressFour": " ",
+            "CVAddressOne": "2145 Sheridan Road, Tech E136",
+            "CVAddressThree": "USA",
+            "CVAddressTwo": "Evanston, IL 60208",
+            "CVAuthor": "Luis A. Nunes Amaral",
+            "CVColor": "78, 42, 132",
+            "CVDepartment": "Dept. of Chemical and Biological Engineering",
+            "CVEmail": "amaral@northwestern.edu",
+            "CVGoogleScholar": "http://bit.ly/AmaralGoogleScholar",
+            "CVOrcid": "http://bit.ly/AmaralOrcid",
+            "CVPhoto": "photo.png",
+            "CVPublons": "http://bit.ly/AmaralPublons",
+            "CVSkype": "lamaral1968",
+            "CVTelephone": "+1-847-491-7850",
+            "CVTitle": "LAN Amaral s Curriculum Vitae",
+            "CVTwitter": "@amaral",
+            "CVUniversity": "Northwestern University",
+            "CVWebpage": "https://amaral.northwestern.edu"
+        }
+    ]
+}

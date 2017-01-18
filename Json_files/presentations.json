@@ -1,0 +1,866 @@
+{
+    "Contributed Presentations": [
+        {
+            "Event": "Americal Physical Society March Meeting",
+            "Institution": false,
+            "Location": "Kansas City, MO",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "1996"
+        },
+        {
+            "Event": "Material Research Society Fall Meeting",
+            "Institution": false,
+            "Location": "Boston, MA",
+            "Month": "Dec",
+            "Type": false,
+            "Year": "1996"
+        },
+        {
+            "Event": "International Workshop on Econophysics",
+            "Institution": false,
+            "Location": "Budapest, Hungary",
+            "Month": "Jul",
+            "Type": false,
+            "Year": "1997"
+        },
+        {
+            "Event": "ISTAS School on The Physics of Biosytesm, Self-Assembly, and Evolution",
+            "Institution": "Instituto de Fisica Matematica",
+            "Location": "Lisboa, Portugal",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "1998"
+        },
+        {
+            "Event": "Granada Seminar --  Computational Physics",
+            "Institution": false,
+            "Location": "Granada, Spain",
+            "Month": "Sep",
+            "Type": false,
+            "Year": "1998"
+        },
+        {
+            "Event": "International Workshop on Applications of Physics to Financial Analysis",
+            "Institution": "University of Dublin",
+            "Location": "Dublin, Ireland",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "1999"
+        },
+        {
+            "Event": "StatPhys 21",
+            "Institution": false,
+            "Location": "Cancun, Mexico",
+            "Month": "Jul",
+            "Type": false,
+            "Year": "2001"
+        },
+        {
+            "Event": "AIChE Annual Meeting",
+            "Institution": false,
+            "Location": "Indianapolis, IN",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2002"
+        },
+        {
+            "Event": "AIChE Annual Meeting",
+            "Institution": false,
+            "Location": "San Francisco, CA",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2003"
+        },
+        {
+            "Event": "AIChE Annual Meeting",
+            "Institution": false,
+            "Location": "Austin, TX",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2004"
+        },
+        {
+            "Event": "William M. Keck Foundation -- Distinguished Young Scholar Symposium",
+            "Institution": false,
+            "Location": "Los Angeles, CA",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2007"
+        },
+        {
+            "Event": "William M. Keck Foundation -- Distinguished Young Scholar Symposium",
+            "Institution": false,
+            "Location": "Los Angeles, CA",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2008"
+        },
+        {
+            "Event": "HHMI Science Meeting",
+            "Institution": "Janelia Farm",
+            "Location": "Ashburn, VA",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2009"
+        },
+        {
+            "Event": "William M. Keck Foundation -- Distinguished Young Scholar Symposium",
+            "Institution": false,
+            "Location": "Los Angeles, CA",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2010"
+        },
+        {
+            "Event": "William M. Keck Foundation -- Distinguished Young Scholar Symposium",
+            "Institution": false,
+            "Location": "Los Angeles, CA",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2011"
+        },
+        {
+            "Event": "HHMI Science Meeting",
+            "Institution": "Janelia Farm",
+            "Location": "Ashburn, VA",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "2011"
+        },
+        {
+            "Event": "HHMI Science Meeting",
+            "Institution": "Janelia Farm",
+            "Location": "Ashburn, VA",
+            "Month": "Sep",
+            "Type": false,
+            "Year": "2014"
+        }
+    ],
+    "Invited Presentations": [
+        {
+            "Event": "Condensed Matter Theory Group",
+            "Institution": "University of Chicago",
+            "Location": "Chicago, IL",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "1995"
+        },
+        {
+            "Event": "Fisica",
+            "Institution": "Universidade do Porto",
+            "Location": "Porto, Portugal",
+            "Month": "Oct",
+            "Type": false,
+            "Year": "1995"
+        },
+        {
+            "Event": "von Neumann Institute for Computing",
+            "Institution": "Forschungszentrum Juelich",
+            "Location": "Juelich, Germany",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "1996"
+        },
+        {
+            "Event": "Centre for Chaos and Turbulence Studies",
+            "Institution": "Niels Bohr Institute",
+            "Location": "Copenhagen, Denmark",
+            "Month": "May",
+            "Type": false,
+            "Year": "1996"
+        },
+        {
+            "Event": "Physik",
+            "Institution": "Universitaet-GH Essen",
+            "Location": "Essen, Germany",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "1996"
+        },
+        {
+            "Event": "International Workshop on Dynamics of Non-Equilibrium Systems",
+            "Institution": "International Centre for Theoretical Physics",
+            "Location": "Triestre, Italy",
+            "Month": "Aug",
+            "Type": false,
+            "Year": "1996"
+        },
+        {
+            "Event": "Fisica",
+            "Institution": "Universidade de Lisboa",
+            "Location": "Lisboa, Portugal",
+            "Month": "Oct",
+            "Type": false,
+            "Year": "1996"
+        },
+        {
+            "Event": "Physics and Astronomy",
+            "Institution": "Lehman College of City University of New York",
+            "Location": "Bronx, NY",
+            "Month": "Oct",
+            "Type": false,
+            "Year": "1997"
+        },
+        {
+            "Event": "Physics",
+            "Institution": "California State University",
+            "Location": "Northridge, CA",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "1999"
+        },
+        {
+            "Event": "International Workshop on Non-Equilibrium Dynamical Systems",
+            "Institution": "Universidade do Porto",
+            "Location": "Porto, Portugal",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "1999"
+        },
+        {
+            "Event": "Physics and James Franck Institute",
+            "Institution": "University of Chicago",
+            "Location": "Chicago, IL",
+            "Month": "Jan",
+            "Type": false,
+            "Year": "2000"
+        },
+        {
+            "Event": "Program for the Study of Complex Systems",
+            "Institution": "University of Michigan",
+            "Location": "Ann Arbor, MI",
+            "Month": "Jan",
+            "Type": false,
+            "Year": "2000"
+        },
+        {
+            "Event": "Physics",
+            "Institution": "University of Michigan",
+            "Location": "Ann Arbor, MI",
+            "Month": "Jan",
+            "Type": false,
+            "Year": "2000"
+        },
+        {
+            "Event": "March Meeting",
+            "Institution": "American Physical Society ",
+            "Location": "Minneapolis, MN",
+            "Month": "Mar",
+            "Type": "Invited Symposium Speaker",
+            "Year": "2000"
+        },
+        {
+            "Event": "6th International Conference on Science and Technology Indicators",
+            "Institution": "University of Leiden",
+            "Location": "Leiden, Netherlands",
+            "Month": "May",
+            "Type": false,
+            "Year": "2000"
+        },
+        {
+            "Event": "International Symposium on Empirical Science of Financial Fluctuations ",
+            "Institution": "Nihon Keizai Shimbun",
+            "Location": "Tokyo, Japan",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2000"
+        },
+        {
+            "Event": "NATO Advanced Research Workshop on Application of Physics in Economic Modeling",
+            "Institution": "Czech Academy of Sciences",
+            "Location": "Prague, Czech Republic",
+            "Month": "Feb",
+            "Type": false,
+            "Year": "2001"
+        },
+        {
+            "Event": "11th International Summer School",
+            "Institution": "University of Jyvaskyla",
+            "Location": "Jyvaskyla, Finland",
+            "Month": "Aug",
+            "Type": false,
+            "Year": "2001"
+        },
+        {
+            "Event": "Fisica",
+            "Institution": "Universidade Federal do Rio Grande do Norte",
+            "Location": "Natal, Brazil",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2001"
+        },
+        {
+            "Event": "March Meeting",
+            "Institution": "American Physical Society ",
+            "Location": "Indianapolis, IN",
+            "Month": "Mar",
+            "Type": "Invited Symposium Speaker",
+            "Year": "2002"
+        },
+        {
+            "Event": "Chemical Engineering",
+            "Institution": "Northwestern University",
+            "Location": "Evanston, IL",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "2002"
+        },
+        {
+            "Event": "Biomedical Engineering",
+            "Institution": "State University of New York",
+            "Location": "Stony Brook, NY",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2002"
+        },
+        {
+            "Event": "Mechanical and Industrial Engineering",
+            "Institution": "University of Illinois",
+            "Location": "Urbana, IL",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2002"
+        },
+        {
+            "Event": "Institute of Theoretical Dynamics",
+            "Institution": "University of California",
+            "Location": "Davis, CA",
+            "Month": "May",
+            "Type": false,
+            "Year": "2002"
+        },
+        {
+            "Event": "Symposium on Complex Networks",
+            "Institution": "Center for Biodynamics, Boston University",
+            "Location": "Boston, MA",
+            "Month": "Dec",
+            "Type": false,
+            "Year": "2002"
+        },
+        {
+            "Event": "MedMath 2003 Symposium",
+            "Institution": "University of Manitoba",
+            "Location": "Winnipeg, Canada",
+            "Month": "May",
+            "Type": false,
+            "Year": "2003"
+        },
+        {
+            "Event": "BioComplexity V: Multiscale Modeling in Biology",
+            "Institution": "University of Notre  Dame",
+            "Location": "South Bend, IN",
+            "Month": "Aug",
+            "Type": false,
+            "Year": "2003"
+        },
+        {
+            "Event": "Frontiers of Science 2003",
+            "Institution": "Universita degli Studi",
+            "Location": "Pavia, Italy",
+            "Month": "Sep",
+            "Type": false,
+            "Year": "2003"
+        },
+        {
+            "Event": "Midterm Conference",
+            "Institution": "Complexity in Networks (COSIN) Project",
+            "Location": "Roma, Italy",
+            "Month": "Sep",
+            "Type": false,
+            "Year": "2003"
+        },
+        {
+            "Event": "Joint SFI-University of Michigan Workshop",
+            "Institution": "University of Michigan",
+            "Location": "Ann Arbor, MI",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2003"
+        },
+        {
+            "Event": "Chemical Engineering",
+            "Institution": "University of Michigan",
+            "Location": "Ann Arbor, MI",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2003"
+        },
+        {
+            "Event": "April Meeting",
+            "Institution": "American Physical Society ",
+            "Location": "Denver, CO",
+            "Month": "May",
+            "Type": "Invited Symposium Speaker",
+            "Year": "2004"
+        },
+        {
+            "Event": "IV Encontro",
+            "Institution": "Forum Internacional de Investigadores Portugueses",
+            "Location": "Coimbra, Portugal",
+            "Month": "Jul",
+            "Type": false,
+            "Year": "2004"
+        },
+        {
+            "Event": "Chemical and Environmental Engineering",
+            "Institution": "Illinois Institute of Technology",
+            "Location": "Chicago, IL",
+            "Month": "Nov",
+            "Type": false,
+            "Year": "2004"
+        },
+        {
+            "Event": "Chemical Engineering",
+            "Institution": "Purdue University",
+            "Location": "West Lafayette, IN",
+            "Month": "Feb",
+            "Type": false,
+            "Year": "2005"
+        },
+        {
+            "Event": "Final Conference",
+            "Institution": "Complexity in Networks (COSIN) Project",
+            "Location": "Salou, Spain",
+            "Month": "Mar",
+            "Type": "Opening Keynote Speaker",
+            "Year": "2005"
+        },
+        {
+            "Event": "Workshop on Regime Changes",
+            "Institution": "Environmental Protectiion Agency",
+            "Location": "Cincinnati, OH",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "2005"
+        },
+        {
+            "Event": "Annual Meeting",
+            "Institution": "Deutsche Physikalische Gesellschaft",
+            "Location": "Berlin, Germany",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "2005"
+        },
+        {
+            "Event": "Workshop on Network Robustness",
+            "Institution": "Santa Fe Institute",
+            "Location": "Santa Fe, NM",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "2005"
+        },
+        {
+            "Event": "NIH Roadmap -- Workshop on Interdisciplinary Research Centers",
+            "Institution": "National Institutes of Health",
+            "Location": "Bethesda, MD",
+            "Month": "Feb",
+            "Type": "Keynote Speaker",
+            "Year": "2006"
+        },
+        {
+            "Event": "6th International Conference on Complex Systems",
+            "Institution": "New England Complex Systems Institute",
+            "Location": "Boston, MA",
+            "Month": "Jun",
+            "Type": "Plenary Speaker",
+            "Year": "2006"
+        },
+        {
+            "Event": "15th Annual Meeting ",
+            "Institution": "International Society for Anaesthetic Pharmacologists",
+            "Location": "Chicago, IL",
+            "Month": "Oct",
+            "Type": "Opening Keynote Speaker",
+            "Year": "2006"
+        },
+        {
+            "Event": "Chemical and Biological Engineering",
+            "Institution": "Northwestern University",
+            "Location": "Evanston, IL",
+            "Month": "Oct",
+            "Type": false,
+            "Year": "2006"
+        },
+        {
+            "Event": "Northwestern Institute on Complex Systems",
+            "Institution": "Northwestern University",
+            "Location": "Evanston, IL",
+            "Month": "Oct",
+            "Type": false,
+            "Year": "2006"
+        },
+        {
+            "Event": "4th Symposium on Functional Genomics of Critical Illness and Injury",
+            "Institution": "National Institutes of Health",
+            "Location": "Bethesda, MD",
+            "Month": "Nov",
+            "Type": "Featured Speaker",
+            "Year": "2006"
+        },
+        {
+            "Event": "Conference on Empowering Environmental Health Sciences Research with New Technologies",
+            "Institution": "National Institute of Environmental Health Sciences",
+            "Location": "Chapel Hill, NC",
+            "Month": "Dec",
+            "Type": "Keynote Presenter",
+            "Year": "2006"
+        },
+        {
+            "Event": "Pharmacology",
+            "Institution": "University of Illinois College of Medicine",
+            "Location": "Chicago, IL",
+            "Month": "Jan",
+            "Type": false,
+            "Year": "2007"
+        },
+        {
+            "Event": "Chemical and Biological Engineering",
+            "Institution": "Rensselaer Polytechnic Institute",
+            "Location": "Troy, NY",
+            "Month": "Feb",
+            "Type": false,
+            "Year": "2007"
+        },
+        {
+            "Event": "Institute Colloquium",
+            "Institution": "Stowers Institute for Medical Research",
+            "Location": "Kansas City, MO",
+            "Month": "May",
+            "Type": false,
+            "Year": "2007"
+        },
+        {
+            "Event": "21st Century Science Initiative Meeting",
+            "Institution": "J. S. McDonnell Foundation",
+            "Location": "Wellesley, MA",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "2007"
+        },
+        {
+            "Event": "NIH Roadmap -- Interdisciplinary Research Centers Workshop",
+            "Institution": "Northwestern University",
+            "Location": "Evanston, IL",
+            "Month": "May",
+            "Type": false,
+            "Year": "2008"
+        },
+        {
+            "Event": "Systems Biology Symposium",
+            "Institution": "National Institutes of Health",
+            "Location": "Bethesda, MD",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "2008"
+        },
+        {
+            "Event": "Institute Colloquium",
+            "Institution": "Santa Fe Institute",
+            "Location": "Santa Fe, NM",
+            "Month": "Jul",
+            "Type": false,
+            "Year": "2008"
+        },
+        {
+            "Event": "International Workshop on Challenges and Visions in the Social Sciences",
+            "Institution": "ETH Zurich",
+            "Location": "Zurich, Switzerland",
+            "Month": "Aug",
+            "Type": "Keynote Speaker",
+            "Year": "2008"
+        },
+        {
+            "Event": "The Cognitive Basis of Safe Practice: Rethinking Error in Critical Care Medicine",
+            "Institution": "J. S. McDonnell Foundation",
+            "Location": "Phoenix, AZ",
+            "Month": "Oct",
+            "Type": "Keynote Speaker",
+            "Year": "2008"
+        },
+        {
+            "Event": "Networks and Neuroscience Symposium",
+            "Institution": "Kaetsu Centre, New Hall College",
+            "Location": "Cambridge, England",
+            "Month": "Oct",
+            "Type": "Keynote Speaker",
+            "Year": "2008"
+        },
+        {
+            "Event": "VI Encontro",
+            "Institution": "Forum Internacional de Investigadores Portugueses",
+            "Location": "Oeiras, Portugal",
+            "Month": "Dec",
+            "Type": false,
+            "Year": "2008"
+        },
+        {
+            "Event": "Distinguished Young Scholars Symposium",
+            "Institution": "William M. Keck Foundation",
+            "Location": "Los Angeles, CA",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2009"
+        },
+        {
+            "Event": "Microarray Group",
+            "Institution": "National Institute of Environmental Health Sciences",
+            "Location": "Research Triangle Park, NC",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2009"
+        },
+        {
+            "Event": "Second International Engineering Systems Symposium",
+            "Institution": "MIT",
+            "Location": "Cambridge, MA",
+            "Month": "Jun",
+            "Type": "Keynote Speaker",
+            "Year": "2009"
+        },
+        {
+            "Event": "Institute Colloquium",
+            "Institution": "Instituto Gulbenkian de Ciencia",
+            "Location": "Oeiras, Portugal",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "2009"
+        },
+        {
+            "Event": "Symposium on Frontiers of Network Science",
+            "Institution": "Max Planck Institute",
+            "Location": "Berlin, Germany",
+            "Month": "Sep",
+            "Type": false,
+            "Year": "2009"
+        },
+        {
+            "Event": "SFI Science Board Meeting",
+            "Institution": "Santa Fe Institute",
+            "Location": "Santa Fe, NM",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2010"
+        },
+        {
+            "Event": "Dow Corning Technical Conference",
+            "Institution": "Dow Corning",
+            "Location": "Saginaw, MI",
+            "Month": "May",
+            "Type": "Keynote Speaker",
+            "Year": "2010"
+        },
+        {
+            "Event": "SciTS 2010 Conference",
+            "Institution": "Science of Team Science",
+            "Location": "Chicago, IL",
+            "Month": "May",
+            "Type": false,
+            "Year": "2010"
+        },
+        {
+            "Event": "Workshop on Shared Organizational Principles in the Computing and Biological Sciences",
+            "Institution": "National Science Foundation",
+            "Location": "Arlington, VA",
+            "Month": "May",
+            "Type": false,
+            "Year": "2010"
+        },
+        {
+            "Event": "Computation Institute",
+            "Institution": "University of Chicago",
+            "Location": "Chicago, IL",
+            "Month": "Dec",
+            "Type": false,
+            "Year": "2010"
+        },
+        {
+            "Event": "Genetics, Genomics, and Systems Biology",
+            "Institution": "University of Chicago",
+            "Location": "Chicago, IL",
+            "Month": "Jan",
+            "Type": false,
+            "Year": "2011"
+        },
+        {
+            "Event": "Web Science Meets Network Science",
+            "Institution": "NICO/SONIC ",
+            "Location": "Evanston, IL",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "2011"
+        },
+        {
+            "Event": "2011 Complexity Conference",
+            "Institution": "NICO/SONIC ",
+            "Location": "Evanston, IL",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "2011"
+        },
+        {
+            "Event": "Distinguished Young Scholars Symposium",
+            "Institution": "William M. Keck Foundation",
+            "Location": "Irvine, CA",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2011"
+        },
+        {
+            "Event": "NetSci 2012",
+            "Institution": "Network Science Society",
+            "Location": "Evanston, IL",
+            "Month": "Jun",
+            "Type": "Opening Keynote Speaker",
+            "Year": "2012"
+        },
+        {
+            "Event": "Biologie",
+            "Institution": "Ecole Normale Superieure",
+            "Location": "Paris, France",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "2012"
+        },
+        {
+            "Event": "2012 LTER All Scientists Meeting",
+            "Institution": "Long Term Ecological Research Network",
+            "Location": "Estes Park, CO",
+            "Month": "Sep",
+            "Type": "Plenary Speaker",
+            "Year": "2012"
+        },
+        {
+            "Event": "SciTS 2013 Conference",
+            "Institution": "Science of Team Science",
+            "Location": "Evanston, IL",
+            "Month": "Jun",
+            "Type": "Invited Panelist",
+            "Year": "2013"
+        },
+        {
+            "Event": "ECCS 2013",
+            "Institution": "European Complex Systems Society",
+            "Location": "Barcelona, Spain",
+            "Month": "Sep",
+            "Type": "Plenary Speaker",
+            "Year": "2013"
+        },
+        {
+            "Event": "ECCS 2013 Satellite -- Big Data in Complex Systems",
+            "Institution": "European Complex Systems Society",
+            "Location": "Barcelona, Spain",
+            "Month": "Sep",
+            "Type": false,
+            "Year": "2013"
+        },
+        {
+            "Event": "Army Science Planning and Strategy Meeting on Information at the Tactical Edge",
+            "Institution": "Army Research Office",
+            "Location": "Potomac, MD",
+            "Month": "Dec",
+            "Type": false,
+            "Year": "2013"
+        },
+        {
+            "Event": "John von Neumann Public Lecture Series in Complexity and Computation",
+            "Institution": "Wisconsin Institute for Discovery",
+            "Location": "Madison, WI",
+            "Month": "Feb",
+            "Type": false,
+            "Year": "2014"
+        },
+        {
+            "Event": "Physics Meets the Social Sciences",
+            "Institution": "Granada Seminar",
+            "Location": "La Herradura, Spain",
+            "Month": "Jun",
+            "Type": "Keynote Speaker",
+            "Year": "2015"
+        },
+        {
+            "Event": "Workshop on The Intersection of Aging Biology and Pathobiology of Lung Diseases",
+            "Institution": "National Institute of Aging",
+            "Location": "Bethesda, MD",
+            "Month": "Sep",
+            "Type": false,
+            "Year": "2015"
+        },
+        {
+            "Event": "CCS 2015 Satellite -- Quantifying Science Symposium",
+            "Institution": "Complex Systems Society",
+            "Location": "Tempe, AZ",
+            "Month": "Oct",
+            "Type": false,
+            "Year": "2015"
+        },
+        {
+            "Event": "Chemical Engineering",
+            "Institution": "University of Wisconsin",
+            "Location": "Madison, WI",
+            "Month": "Dec",
+            "Type": false,
+            "Year": "2015"
+        },
+        {
+            "Event": "International Symposium on Science of Science",
+            "Institution": "Library of Congress",
+            "Location": "Washington, DC",
+            "Month": "Mar",
+            "Type": false,
+            "Year": "2016"
+        },
+        {
+            "Event": "Symposium on Biological Information Processing",
+            "Institution": "Max Planck Institute",
+            "Location": "Tuebigen, German",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2016"
+        },
+        {
+            "Event": "Chemical and Biomolecular Engineering",
+            "Institution": "Lehigh University",
+            "Location": "Bethlehem, PA",
+            "Month": "Apr",
+            "Type": false,
+            "Year": "2016"
+        },
+        {
+            "Event": false,
+            "Institution": "Rochester Institute of Technology",
+            "Location": "Rochester, NY",
+            "Month": "Apr",
+            "Type": "Eugene H. Fram Chair in Applied Critical Thinking Spring Lecture",
+            "Year": "2016"
+        },
+        {
+            "Event": "School of Medicine",
+            "Institution": "Vanderbilt University",
+            "Location": "Nashville, TN",
+            "Month": "Jun",
+            "Type": "Flexner Dean Lecture Series",
+            "Year": "2016"
+        },
+        {
+            "Event": "Computation Institute",
+            "Institution": "University of Chicago",
+            "Location": "Chicago, IL",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "2016"
+        },
+        {
+            "Event": "Civil and Environmental Engineering",
+            "Institution": "MIT",
+            "Location": "Cambridge, MA",
+            "Month": "Oct",
+            "Type": "C.C. Mei Distinguished Speaker Series",
+            "Year": "2016"
+        }
+    ],
+    "Order": [
+        "Invited Presentations",
+        "Contributed Presentations"
+    ]
+}

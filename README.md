@@ -1,4 +1,4 @@
-# amaral-lab.org
+# Luis Amaral (amaral-lab.org)
 
 The premise for this project is that LaTeX is a better system to create a large academic CV than Word.
 Unfortunately, the choice of LaTeX means that the number of people able to help maintain the CV up-to-date
@@ -9,7 +9,7 @@ I developed this Python package in order to be able to create the `*.tex` files 
 maintained in Excel files and, thus, enable individuals lacking experience with LaTeX to help maintain a large
 academic CV.
 
-## Input files (needing maintenance)
+## Data being maintained
 
 This package requires the existence of 8 Excel files and one image file in the folder Data_files.
 See examples provided.
@@ -61,6 +61,18 @@ be reflected in the CV.
 This file contains a list of grants in chronological order (oldest to newest).
 
 
+## Formatting of output
+
+I use `*.mustache` files to separate logic from output. The logic part is confined to Python code,
+while LaTeX output is declared in the `*.mustache` files stored in the folder `Formatting_files`.  If you
+want to change the format of the CV, and know LaTeX, you can edit the `*.mustache` files.
+
+You must edit `CV-Preamble.tex` (located in the folder `Formatting_files`) in order to change other aspects of the
+CV such as font types and spacing between items.
+
+You must edit `myCV.tex` (located in the main directory) in order to ignore some of the sections, reorder sections, change page format,
+and so on.
+
 ## Generating CV
 
 In order to create your CV, you will need to:
@@ -73,12 +85,3 @@ This will create a set of `*.tex` files that are stored in the folder `Tex_files
 
 You will need to compile the file several times in order for the value of some variables (such as total
 number of pages) to propagate.
-
-
-## Modifying output
-
-You can edit `myCV.tex` in order to ignore some of the sections, reorder sections, change paper format,
-change font size, and so on.
-
-You can edit `CV-Preamble.tex` (located in the folder `Data_files`) in order to change other aspects of the
-CV such as font types and spacing between items.

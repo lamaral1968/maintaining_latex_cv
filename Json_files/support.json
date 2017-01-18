@@ -1,0 +1,63 @@
+{
+    "Order": [
+        "Sheet1"
+    ],
+    "Sheet1": [
+        {
+            "Comment": "PI of Core 2/4",
+            "Institution": "J. S. McDonnell Foundation ",
+            "Title": "Critical care interdisciplinary research consortium: A 21st Century complex systems collaboratory",
+            "Year_begin": "2004",
+            "Year_end": "2007"
+        },
+        {
+            "Comment": "PI",
+            "Institution": "National Institute of General Medical Sciences",
+            "Title": "K25 -- Integrative approach to characterizing gene regulation",
+            "Year_begin": "2004",
+            "Year_end": "2009"
+        },
+        {
+            "Comment": "co-PI",
+            "Institution": "National Science Foundation ",
+            "Title": "Collaborative VOSS: Understanding and enabling network dynamics in virtual communities",
+            "Year_begin": "2008",
+            "Year_end": "2012"
+        },
+        {
+            "Comment": "co-PI, PI",
+            "Institution": "National Science Foundation ",
+            "Title": "Early prediction of the impact of research through large-scale analysis and modeling of citation dynamics",
+            "Year_begin": "2008",
+            "Year_end": "2012"
+        },
+        {
+            "Comment": "PI",
+            "Institution": "William M. Keck Foundation",
+            "Title": "Distinguished Young Scholar in Medical Research",
+            "Year_begin": "2006",
+            "Year_end": "2012"
+        },
+        {
+            "Comment": "Consortium co-PI, co-PI of Core 2",
+            "Institution": "National Institute of General Medical Sciences",
+            "Title": "Chicago Consortium for Systems Biology -- Core 2: Eukaryotic stress networks",
+            "Year_begin": "2008",
+            "Year_end": "2013"
+        },
+        {
+            "Comment": "PI of subcontract",
+            "Institution": "The John Templeton Foundation",
+            "Title": "Metaknowledge Network -- Measuring scientific impact",
+            "Year_begin": "2013",
+            "Year_end": "2016"
+        },
+        {
+            "Comment": "PI",
+            "Institution": "Army Research Office",
+            "Title": "10.2: Adoption of innovations in work networks",
+            "Year_begin": "2014",
+            "Year_end": "2017"
+        }
+    ]
+}

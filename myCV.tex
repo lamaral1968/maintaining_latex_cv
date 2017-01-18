@@ -35,7 +35,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% PREAMBLE
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./Tex_files/CV-Preamble.tex}
+\input{./Formatting_files/CV-Preamble.tex}
 
 \input{./Tex_files/variables}
 
@@ -43,7 +43,7 @@
 %% ACTUAL DOCUMENT.
 %%
 %% In order to have specific sections start on new pages, please
-%% adjust spacing in \hspace{} commands below
+%% adjust spacing in \vspace*{x.xxcm} commands below
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \thispagestyle{empty}
@@ -55,7 +55,7 @@
 \normalfont
 \begin{body}
 
-\vspace*{-0.5cm}
+\vspace*{-1.5cm}
 %%%%%%%%%%%%%%  APPOINTMENTS 
 \include{./Tex_files/appointments}
 
@@ -78,15 +78,21 @@
 %%%%%%%%%%%%%%  RESEARCH SUPPORT 
 \include{./Tex_files/support}
 
-\vspace*{12.0cm}
+\end{body}
+\newpage
+\begin{body}
+\vspace*{-2.0cm}
 %%%%%%%%%%%%%%  MENTORING 
 \include{./Tex_files/mentoring}
 
-\vspace*{8.0cm}
+\end{body}
+\newpage
+\begin{body}
+\vspace*{-2.0cm}
 %%%%%%%%%%%%%%  PUBLICATIONS 
 \include{./Tex_files/publications}
 
-\vspace*{-2.5cm}
+\vspace*{-1.8cm}
 %%%%%%%%%%%%%%  PRESENTATIONS 
 \include{./Tex_files/presentations}
 

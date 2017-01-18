@@ -1,0 +1,346 @@
+{
+    "External Service": [
+        {
+            "Comment": false,
+            "Institution": "Nature, Science, JAMA, PNAS, Royal Society journals, AIChE Journal, Physical Review journals, PLOS journals, BMC journals, etc.",
+            "Title": "Reviewer",
+            "Year_begin": "1995",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Invited Symposia at the APS March Meeting ",
+            "Institution": "American Physical Society",
+            "Title": "Organizer",
+            "Year_begin": "2003",
+            "Year_end": "present"
+        },
+        {
+            "Comment": false,
+            "Institution": "Center for Scientific Review, National Science Foundation, U.S. Department of Energy, U.S. Department of Defense",
+            "Title": "Reviewer",
+            "Year_begin": "2004",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "11th Frontiers of Engineering Symposium",
+            "Institution": "National Academy of Engineering",
+            "Title": "Organizing Committee",
+            "Year_begin": "2004",
+            "Year_end": "2005"
+        },
+        {
+            "Comment": "Journal of Statistical Mechanics: Theory and Experiment",
+            "Institution": "Institute of Physics (IOP) and SISSA",
+            "Title": "Editor",
+            "Year_begin": "2004",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "5th International Workshop on Biosignal Interpretation",
+            "Institution": "International Federation for Medical and Biological Engineering, International Medical Informatics Association, IEEE Engineering in Medicine and Biology, Japan Society of Medical Electronics and Biomedical Engineering",
+            "Title": "Program Committee",
+            "Year_begin": "2005",
+            "Year_end": false
+        },
+        {
+            "Comment": "Management Science",
+            "Institution": "Institute for Operations Research and Management Sciences (INFORMS)",
+            "Title": "Guest Editor",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Comment": "PLoS Computational Biology",
+            "Institution": "Public Library of Science",
+            "Title": "Guest Editor",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Comment": "European Physical Journal B",
+            "Institution": "European Physics Societies",
+            "Title": "Editor",
+            "Year_begin": "2006",
+            "Year_end": "2009"
+        },
+        {
+            "Comment": "Modeling and Simulation Workshop",
+            "Institution": "Department of Homeland Security -- Science and Technology",
+            "Title": "Program Committee",
+            "Year_begin": "2008",
+            "Year_end": false
+        },
+        {
+            "Comment": "Spark Awards",
+            "Institution": "Chicago Biomedical Consortium",
+            "Title": "Spark Council",
+            "Year_begin": "2008",
+            "Year_end": "2009"
+        },
+        {
+            "Comment": "Complex Systems Program",
+            "Institution": "James S. McDonnell Foundation",
+            "Title": "Advisory Board ",
+            "Year_begin": "2009",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "CBC Junior Scholar",
+            "Institution": "Chicago Biomedical Consortium",
+            "Title": "Selection Committee",
+            "Year_begin": "2010",
+            "Year_end": false
+        },
+        {
+            "Comment": "Nature Communications",
+            "Institution": "Nature Publishing Group",
+            "Title": "Editorial Advisory Board",
+            "Year_begin": "2010",
+            "Year_end": "2016"
+        },
+        {
+            "Comment": "Am. J. Respiratory and Critical Care Medicine",
+            "Institution": "American Thoracic Society",
+            "Title": "Editorial Board",
+            "Year_begin": "2011",
+            "Year_end": "2013"
+        },
+        {
+            "Comment": "PLoS One",
+            "Institution": "Public Library of Science",
+            "Title": "Editor",
+            "Year_begin": "2011",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Topical Group on Statistical and Nonlinear Physics",
+            "Institution": "American Physical Society",
+            "Title": "At large member, Executive Committee",
+            "Year_begin": "2013",
+            "Year_end": "2016"
+        }
+    ],
+    "Northwestern University Service": [
+        {
+            "Comment": "Graduate Program",
+            "Institution": "Inter-departmental Biological Sciences Program",
+            "Title": "Preceptor",
+            "Year_begin": "2002",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Undergraduate Education Committee",
+            "Institution": "Dept. of Chemical Engineering",
+            "Title": "Member",
+            "Year_begin": "2003",
+            "Year_end": "2005"
+        },
+        {
+            "Comment": "Computing Committee",
+            "Institution": "School of Engineering",
+            "Title": "Member",
+            "Year_begin": "2003",
+            "Year_end": "2014"
+        },
+        {
+            "Comment": false,
+            "Institution": "Robert H. Lurie Comprehensive Cancer Center",
+            "Title": "Member",
+            "Year_begin": "2004",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Planning Committee",
+            "Institution": "Chemistry of Life Processes Institute",
+            "Title": "Member",
+            "Year_begin": "2004",
+            "Year_end": "2006"
+        },
+        {
+            "Comment": "Faculty Search Committee",
+            "Institution": "Dept. of Physics and Astronomy",
+            "Title": "Member",
+            "Year_begin": "2004",
+            "Year_end": "2005"
+        },
+        {
+            "Comment": "Faculty Search Committee",
+            "Institution": "Dept. of Chemical Engineering",
+            "Title": "Member",
+            "Year_begin": "2004",
+            "Year_end": "2005"
+        },
+        {
+            "Comment": "Executive Committee",
+            "Institution": "Northwestern Institute on Complex Systems",
+            "Title": "Member",
+            "Year_begin": "2004",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Graduate Admissions Committee",
+            "Institution": "Inter-departmental Biological Sciences Program",
+            "Title": "Member",
+            "Year_begin": "2005",
+            "Year_end": false
+        },
+        {
+            "Comment": "Weekly colloquium",
+            "Institution": "Dept. of Chemical Engineering",
+            "Title": "Organizer",
+            "Year_begin": "2005",
+            "Year_end": "2006"
+        },
+        {
+            "Comment": "Faculty Search Committee",
+            "Institution": "Dept. of Engineering Sciences and Applied Mathematics ",
+            "Title": "Member",
+            "Year_begin": "2005",
+            "Year_end": "2006"
+        },
+        {
+            "Comment": "Graduate Program",
+            "Institution": "Biotechnology Training Program",
+            "Title": "Preceptor",
+            "Year_begin": "2005",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Graduate Program",
+            "Institution": "Medical Scientist Training Program",
+            "Title": "Preceptor",
+            "Year_begin": "2005",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Graduate Program",
+            "Institution": "Computational Biology and Bioinformatics",
+            "Title": "Preceptor",
+            "Year_begin": "2005",
+            "Year_end": "2006"
+        },
+        {
+            "Comment": "Executive Committee",
+            "Institution": "Computational Biology and Bioinformatics",
+            "Title": "Member",
+            "Year_begin": "2005",
+            "Year_end": "2006"
+        },
+        {
+            "Comment": "Annual Conference",
+            "Institution": "Northwestern Institute on Complex Systems",
+            "Title": "Organizer",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Comment": "Faculty Search Committee",
+            "Institution": "Dept. of Chemical and Biological Engineering",
+            "Title": "Member",
+            "Year_begin": "2006",
+            "Year_end": "2007"
+        },
+        {
+            "Comment": "Executive Committee",
+            "Institution": "NU Clinical and Translational Sciences (NU-CATS) Institute",
+            "Title": "Member",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Comment": "Bioinformatics Task Force",
+            "Institution": "School of Medicine",
+            "Title": "Member",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Comment": "One Northwestern Task Force on Integrated Enterprise",
+            "Institution": "Office of the Provost",
+            "Title": "Member",
+            "Year_begin": "2007",
+            "Year_end": "2008"
+        },
+        {
+            "Comment": "Graduate Studies Committee",
+            "Institution": "Dept. of Chemical and Biological Engineering",
+            "Title": "Member",
+            "Year_begin": "2007",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Departmental Newsletter ",
+            "Institution": "Dept. of Chemical and Biological Engineering",
+            "Title": "Editor",
+            "Year_begin": "2007",
+            "Year_end": "2016"
+        },
+        {
+            "Comment": "Graduate Studies Committee",
+            "Institution": "Dept. of Chemical and Biological Engineering",
+            "Title": "Director",
+            "Year_begin": "2008",
+            "Year_end": "2014"
+        },
+        {
+            "Comment": "Searle Leadership Fund Selection Committee",
+            "Institution": "Office of Research",
+            "Title": "Member",
+            "Year_begin": "2009",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Limited Submissions Committee",
+            "Institution": "Office of Research",
+            "Title": "Member",
+            "Year_begin": "2010",
+            "Year_end": "2014"
+        },
+        {
+            "Comment": "Purple Sky Workgroup, Strategic Plan",
+            "Institution": "Office of the Provost",
+            "Title": "Co-chair",
+            "Year_begin": "2010",
+            "Year_end": "2011"
+        },
+        {
+            "Comment": "NUIN Graduate Program Review ",
+            "Institution": "The Graduate School",
+            "Title": "Committee Chair",
+            "Year_begin": "2011",
+            "Year_end": false
+        },
+        {
+            "Comment": "L. Dumas Domain Dinner on Big Data",
+            "Institution": "Office of the Provost",
+            "Title": "Organizer and Chair",
+            "Year_begin": "2013",
+            "Year_end": false
+        },
+        {
+            "Comment": "Faculty Workshop on Big Data",
+            "Institution": "Office of the Provost",
+            "Title": "Organizer and Chair",
+            "Year_begin": "2014",
+            "Year_end": false
+        },
+        {
+            "Comment": "Promotion and Tenure Committee",
+            "Institution": "School of Engineering",
+            "Title": "Member",
+            "Year_begin": "2014",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Data Science Initiative ",
+            "Institution": "Office of Research",
+            "Title": "Steering Committee Chair ",
+            "Year_begin": "2015",
+            "Year_end": "present"
+        }
+    ],
+    "Order": [
+        "External Service",
+        "Northwestern University Service"
+    ]
+}

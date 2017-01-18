@@ -1,0 +1,835 @@
+{
+    "Graduate Students": [
+        {
+            "Current": "Associate Professor, School of Biological Sciences",
+            "Honors": "NSF IGERT Trainee; Junta para la Ampliacion de Estudios, Juan de la Cierva Fellowship, University of Canterbury Early and Emerging Career Researcher Award; Rutherford Discovery Fellow; ESA Junior Fellow",
+            "Institution": "University of Canterbury, New Zealand",
+            "Status": false,
+            "Trainee": "Daniel B. Stouffer, Ph.D.",
+            "Year_begin": "2003",
+            "Year_end": "2007"
+        },
+        {
+            "Current": "Founder, Managing Partner",
+            "Honors": "NSF IGERT Trainee; Runner-up, Distinguished Graduate Researcher Award",
+            "Institution": "Datascope Analytics LLC",
+            "Status": "co-advised with J. Ottino",
+            "Trainee": "R. Dean Malmgren, Ph.D.",
+            "Year_begin": "2005",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Founder, Managing Partner",
+            "Honors": "NSF IGERT Trainee",
+            "Institution": "Datascope Analytics LLC",
+            "Status": false,
+            "Trainee": "Michael J. Stringer, Ph.D.",
+            "Year_begin": "2005",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Director, Crude and Desalting",
+            "Honors": false,
+            "Institution": "Phillips 66",
+            "Status": false,
+            "Trainee": "Erin N. Sawardecker-Amundsen, Ph.D.",
+            "Year_begin": "2005",
+            "Year_end": "2010"
+        },
+        {
+            "Current": "Assistant Computational Scientist",
+            "Honors": false,
+            "Institution": "Argonne National Laboratory",
+            "Status": false,
+            "Trainee": "Samuel M. D. Seaver, Ph.D.",
+            "Year_begin": "2005",
+            "Year_end": "2011"
+        },
+        {
+            "Current": "Director, Computational Toxicology",
+            "Honors": "Runner-up, Distinguished Graduate Researcher Award",
+            "Institution": "ScitoVation",
+            "Status": "co-advised with R. Morimoto",
+            "Trainee": "Patrick D. McMullen, Ph.D.",
+            "Year_begin": "2006",
+            "Year_end": "2011"
+        },
+        {
+            "Current": "Partner",
+            "Honors": false,
+            "Institution": "Datascope Analytics LLC",
+            "Status": false,
+            "Trainee": "M. Irmak Sirer, Ph.D.",
+            "Year_begin": "2007",
+            "Year_end": "2014"
+        },
+        {
+            "Current": "Deputy General Manager",
+            "Honors": false,
+            "Institution": "China Resources (Holdings) Co",
+            "Status": false,
+            "Trainee": "Xuan Zhang, M.Sc.",
+            "Year_begin": "2008",
+            "Year_end": "2010"
+        },
+        {
+            "Current": "Clinical Faculty, Kellogg School of Management",
+            "Honors": "Chicago Biomedical Consortium Scholar Award; Biotechnology Trainining Program Trainee",
+            "Institution": "Northwestern University",
+            "Status": false,
+            "Trainee": "Adam R. Pah, Ph.D.",
+            "Year_begin": "2009",
+            "Year_end": "2013"
+        },
+        {
+            "Current": "Senior Risk and Market Analyst",
+            "Honors": false,
+            "Institution": "Trafigura",
+            "Status": false,
+            "Trainee": "Rufaro Mukogo, M.Sc.",
+            "Year_begin": "2010",
+            "Year_end": "2012"
+        },
+        {
+            "Current": "Software Development Engineer",
+            "Honors": false,
+            "Institution": "Groupon",
+            "Status": false,
+            "Trainee": "Xiaohan Zeng, Ph.D.",
+            "Year_begin": "2010",
+            "Year_end": "2014"
+        },
+        {
+            "Current": "Data Scientist",
+            "Honors": false,
+            "Institution": "Federal Reserve Board",
+            "Status": false,
+            "Trainee": "Max Wasserman, Ph.D.",
+            "Year_begin": "2010",
+            "Year_end": "2014"
+        },
+        {
+            "Current": "Postdoctoral Fellow",
+            "Honors": false,
+            "Institution": "Northwestern University",
+            "Status": "co-advised with R. Morimoto",
+            "Trainee": "Peter B. Winter, Ph.D.",
+            "Year_begin": "2009",
+            "Year_end": "2015"
+        },
+        {
+            "Current": "Postdoctoral Fellow",
+            "Honors": "Howard Hughes Medical Institute International Student Research Fellow; Chicago Biomedical Consortium Scholar Award, ",
+            "Institution": "Caltech",
+            "Status": "co-advised with R. Carthew",
+            "Trainee": "Nicolas Pelaez, Ph.D.",
+            "Year_begin": "2009",
+            "Year_end": "2016"
+        },
+        {
+            "Current": false,
+            "Honors": "NU Presidential Fellow",
+            "Institution": false,
+            "Status": "co-advised with M. Jewett",
+            "Trainee": "Adam Hockenberry",
+            "Year_begin": "2011",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": "Funda\\c{c}\\~ao para a Ci\\^encia e Tecnologia Fellow",
+            "Institution": false,
+            "Status": false,
+            "Trainee": "Jo\\~ao Moreira",
+            "Year_begin": "2012",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": false,
+            "Trainee": "Hyojun (June) Ada Lee",
+            "Year_begin": "2013",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": "NSF Graduate Research Fellow",
+            "Institution": false,
+            "Status": "co-advised with M. Mrksich",
+            "Trainee": "Kazi Helal",
+            "Year_begin": "2014",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": "Biotechnology Trainining Program Trainee",
+            "Institution": false,
+            "Status": false,
+            "Trainee": "Sophia Liu",
+            "Year_begin": "2014",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "co-advised with N. Bagheri",
+            "Trainee": "Sebastian Bernasek",
+            "Year_begin": "2014",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": false,
+            "Trainee": "Hanyu Shi",
+            "Year_begin": "2016",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "co-advised with C. Weiss",
+            "Trainee": "Meagan Bechel",
+            "Year_begin": "2016",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": false,
+            "Trainee": "Zhiheng Bai",
+            "Year_begin": "2016",
+            "Year_end": "present"
+        }
+    ],
+    "Junior Faculty": [
+        {
+            "Current": "Associate Professor of Chemical Engineering",
+            "Honors": false,
+            "Institution": "Universitat Rovira i Virgili, Spain",
+            "Status": "Research Assistant Professor",
+            "Trainee": "Marta Sales-Pardo, Ph.D.",
+            "Year_begin": "2008",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Senior Research Professor",
+            "Honors": false,
+            "Institution": "ICREA, Catalonia, Spain",
+            "Status": "Research Assistant Professor",
+            "Trainee": "Roger Guimera, Ph.D.",
+            "Year_begin": "2008",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Associate Professor of Chemical and Biological Engineering",
+            "Honors": false,
+            "Institution": "Northwestern University",
+            "Status": "Assistant Professor -- R00 awardee",
+            "Trainee": "Michael Jewett, Ph.D.",
+            "Year_begin": "2009",
+            "Year_end": "2015"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Assistant Professor ",
+            "Trainee": "Neda Bagheri, Ph.D.",
+            "Year_begin": "2012",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Assistant Professor -- K23 awardee",
+            "Trainee": "Curtis Weiss, M.D., M.Sc.",
+            "Year_begin": "2013",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Clinical Assistant Professor",
+            "Trainee": "Adam R. Pah, Ph.D.",
+            "Year_begin": "2015",
+            "Year_end": "present"
+        }
+    ],
+    "Order": [
+        "Graduate Students",
+        "Postdoctoral Fellows",
+        "Junior Faculty",
+        "Other Trainees"
+    ],
+    "Other Trainees": [
+        {
+            "Current": "Research Professor of Physics",
+            "Honors": false,
+            "Institution": "Boston University",
+            "Status": "Graduate Student at Boston University",
+            "Trainee": "Plamen Ch. Ivanov, Ph.D.",
+            "Year_begin": "1997",
+            "Year_end": "1999"
+        },
+        {
+            "Current": "Managing Director",
+            "Honors": false,
+            "Institution": "Goldman Sachs",
+            "Status": "Graduate Student at Boston University",
+            "Trainee": "Gopikrishnan Parameswaran, Ph.D.",
+            "Year_begin": "1997",
+            "Year_end": "2000"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Graduate Student at Boston College",
+            "Trainee": "Vasiliki Plerou, Ph.D.",
+            "Year_begin": "1997",
+            "Year_end": "2000"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Graduate Student at Boston University",
+            "Trainee": "Kaushik Matia, Ph.D.",
+            "Year_begin": "1999",
+            "Year_end": "2002"
+        },
+        {
+            "Current": "Assistant Professor of Civil and Environmental Engineering",
+            "Honors": false,
+            "Institution": "University of Pittsburgh",
+            "Status": "Graduate Student at Northwestern University",
+            "Trainee": "Carla A. Ng, Ph.D.",
+            "Year_begin": "2003",
+            "Year_end": "2005"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Di Wu",
+            "Year_begin": "2003",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "On Bon (Albert) Chan",
+            "Year_begin": "2004",
+            "Year_end": "2005"
+        },
+        {
+            "Current": "Postdoctoral Fellow",
+            "Honors": "Semifinalist, 2004--05 Siemens Westinghouse Competition in Math, Science, and Engineering, and 2005 Intel Science Talent Search",
+            "Institution": "University of Washington",
+            "Status": "Student at Evanston Township High School",
+            "Trainee": "Alexander M. Franks, Ph.D.",
+            "Year_begin": "2004",
+            "Year_end": "2005"
+        },
+        {
+            "Current": "Assistant Professor of Health Policy and Management",
+            "Honors": false,
+            "Institution": "Johns Hopkins University",
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "William Padula III, Ph.D.",
+            "Year_begin": "2005",
+            "Year_end": false
+        },
+        {
+            "Current": "PSM Specialist and Hydrocracking Process Engineer",
+            "Honors": false,
+            "Institution": "Chevron",
+            "Status": "Undergraduate Student at Princeton University",
+            "Trainee": "Meir Hasbani",
+            "Year_begin": "2005",
+            "Year_end": false
+        },
+        {
+            "Current": "System Architect",
+            "Honors": false,
+            "Institution": "EUMETSAT",
+            "Status": "Gaduate Student at Universidade de Aveiro",
+            "Trainee": "Joana Migu\\'ens, M.Sc.",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Current": "Postdoctoral Fellow",
+            "Honors": false,
+            "Institution": "University of Washington",
+            "Status": "Undergraduate Student at Brown University",
+            "Trainee": "Alexander M. Franks, Ph.D.",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at IIT Delhi",
+            "Trainee": "Nesha Joshi",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Student at Evanston Township High School",
+            "Trainee": "Nicholas Salter",
+            "Year_begin": "2006",
+            "Year_end": false
+        },
+        {
+            "Current": "Licensing Associate",
+            "Honors": false,
+            "Institution": "University of Wisconsin at Milwaukee Foundation",
+            "Status": "Graduate Student at Northwestern University",
+            "Trainee": "Audrey Salazar, Ph.D.",
+            "Year_begin": "2007",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Arnold O. Beckman Postdoctoral Fellow",
+            "Honors": "NSF Graduate Research Fellowship",
+            "Institution": "University of North Carolina",
+            "Status": "Undergraduate Student at Washington University of St. Louis",
+            "Trainee": "Anthony Mustoe, Ph.D.",
+            "Year_begin": "2007",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Product Manager",
+            "Honors": false,
+            "Institution": "Dropbox",
+            "Status": "Student at Evanston Township High School",
+            "Trainee": "Andrew J. Scheff",
+            "Year_begin": "2007",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Student at Ida Crown Jewish Academy",
+            "Trainee": "Shayna Otis",
+            "Year_begin": "2008",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Assistant Professor of Biostatistics",
+            "Honors": false,
+            "Institution": "Universidade Estadual Paulista de Botucatu",
+            "Status": "Graduate Student at Instituto Nacional de Pesquisas Espaciais",
+            "Trainee": "Andriana S. L. O. Campanharo, Ph.D.",
+            "Year_begin": "2009",
+            "Year_end": "2010"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Student at Chicago Public School",
+            "Trainee": "Zabin Patel",
+            "Year_begin": "2009",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Yale University",
+            "Trainee": "Shayna Otis",
+            "Year_begin": "2010",
+            "Year_end": false
+        },
+        {
+            "Current": "Assistant Professor of Physics",
+            "Honors": false,
+            "Institution": "Universidade Estadual de Maringa",
+            "Status": "Graduate Student at Universidade Estadual de Maringa",
+            "Trainee": "Haroldo V. Ribeiro, Ph.D.",
+            "Year_begin": "2011",
+            "Year_end": "2012"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at University of Missouri-Columbia",
+            "Trainee": "Fiona Odu",
+            "Year_begin": "2011",
+            "Year_end": "2012"
+        },
+        {
+            "Current": "Visiting Scientist",
+            "Honors": "Semifinalist, 2012 Intel Science Talent Search",
+            "Institution": "Weizmann Institute of Science",
+            "Status": "Student at Ida Crown Jewish Academy",
+            "Trainee": "Hannah Otis",
+            "Year_begin": "2011",
+            "Year_end": "2012"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Student at Niles West High School",
+            "Trainee": "Konner Scott",
+            "Year_begin": "2011",
+            "Year_end": "2012"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Kyle Walcott",
+            "Year_begin": "2013",
+            "Year_end": false
+        },
+        {
+            "Current": "Medical Scientist Student",
+            "Honors": false,
+            "Institution": "Vanderbilt University School of Medicine",
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Benjamin Reisman",
+            "Year_begin": "2013",
+            "Year_end": "2014"
+        },
+        {
+            "Current": "CEO and co-founder",
+            "Honors": false,
+            "Institution": "Skyelement",
+            "Status": "Graduate Student at Universitat Rovira i Virgili",
+            "Trainee": "Arnau Gavalda, Ph.D.",
+            "Year_begin": "2013",
+            "Year_end": "2014"
+        },
+        {
+            "Current": "Cloud Computing Software Developer",
+            "Honors": false,
+            "Institution": "Argonne National Laboratory",
+            "Status": "Graduate Student at Northwestern University",
+            "Trainee": "Nicholas Timkovich",
+            "Year_begin": "2013",
+            "Year_end": "2016"
+        },
+        {
+            "Current": "Software Engineer",
+            "Honors": false,
+            "Institution": "Northwestern University",
+            "Status": "Graduate Student at Universitat Rovira i Virgili",
+            "Trainee": "Heliodoro Tejedor, M.S.",
+            "Year_begin": "2013",
+            "Year_end": "2016"
+        },
+        {
+            "Current": "Medical Student",
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Chuyue Yang",
+            "Year_begin": "2013",
+            "Year_end": "2016"
+        },
+        {
+            "Current": "Web/Data Visualization Developer",
+            "Honors": false,
+            "Institution": "My.Suit",
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Matt Hyun-Young",
+            "Year_begin": "2014",
+            "Year_end": false
+        },
+        {
+            "Current": "Graduate Student",
+            "Honors": false,
+            "Institution": "University of California at Berkeley",
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Aaron Stern",
+            "Year_begin": "2014",
+            "Year_end": "2015"
+        },
+        {
+            "Current": "Catastrophe Modeling Analyst",
+            "Honors": false,
+            "Institution": "TigerRisk Partners",
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Andrew Jennings",
+            "Year_begin": "2014",
+            "Year_end": "2016"
+        },
+        {
+            "Current": "Undergraduate Student",
+            "Honors": false,
+            "Institution": "University of Maryland at College Park",
+            "Status": "Student at Ida Crown Jewish Academy",
+            "Trainee": "Sarah Otis",
+            "Year_begin": "2014",
+            "Year_end": false
+        },
+        {
+            "Current": "Undergraduate Student",
+            "Honors": false,
+            "Institution": "University of Illinois at Urbana-Champaign",
+            "Status": "Student at Evanston Township High School",
+            "Trainee": "Lewis Herman",
+            "Year_begin": "2014",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Samantha Crowe",
+            "Year_begin": "2015",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergrad. Student at Universidade Federal de Campina Grande ",
+            "Trainee": "Jessica Martins",
+            "Year_begin": "2015",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Graduate Student at Universidade de S\\~ao Paulo",
+            "Trainee": "Leonardo Nascimento Ferreira",
+            "Year_begin": "2015",
+            "Year_end": "2016"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Graduate Student at Universidade Estadual de Maringa",
+            "Trainee": "Luiz Gustavo de Andrade Alves",
+            "Year_begin": "2015",
+            "Year_end": "2016"
+        },
+        {
+            "Current": "Undergraduate Student",
+            "Honors": false,
+            "Institution": "MIT",
+            "Status": "Student at Evanston Township High School",
+            "Trainee": "Murielle Dunand",
+            "Year_begin": "2015",
+            "Year_end": "2016"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Aditya Jain",
+            "Year_begin": "2015",
+            "Year_end": "present"
+        },
+        {
+            "Current": "Undergraduate Student",
+            "Honors": "Semifinalist, 2017 Regeneron Science Talent Search",
+            "Institution": false,
+            "Status": "Student at Walter Payton College Prep (CPS)",
+            "Trainee": "Beatrice Farb",
+            "Year_begin": "2016",
+            "Year_end": false
+        }
+    ],
+    "Postdoctoral Fellows": [
+        {
+            "Current": "Associate Professor of Chemical Engineering",
+            "Honors": "Fulbright Scholar; Marie Curie Reintegration Award; James S. McDonnell Foundation Career Award",
+            "Institution": "Universitat Rovira i Virgili, Spain",
+            "Status": false,
+            "Trainee": "Marta Sales-Pardo, Ph.D.",
+            "Year_begin": "2002",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Senior Research Professor",
+            "Honors": "Fulbright Scholar; Catalan Research Award; James S. McDonnell Foundation Career Award;  Inaugural Erd\\\"os-R\\`enyi Prize in Network Science; German Physical Society Young Scientist Award for Socio- and Econophysics",
+            "Institution": "ICREA, Catalonia, Spain",
+            "Status": false,
+            "Trainee": "Roger Guimer\\`a, Ph.D.",
+            "Year_begin": "2002",
+            "Year_end": "2008"
+        },
+        {
+            "Current": "Professor of Physics",
+            "Honors": false,
+            "Institution": "Universidade Federal do Ceara, Brazil",
+            "Status": false,
+            "Trainee": "Andre A. Moreira, Ph.D.",
+            "Year_begin": "2002",
+            "Year_end": "2008"
+        },
+        {
+            "Current": "Scientist",
+            "Honors": false,
+            "Institution": "GE Global Research",
+            "Status": "co-advised with D. Diermeier",
+            "Trainee": "Saikat Ray Majumder, Ph.D.",
+            "Year_begin": "2007",
+            "Year_end": "2008"
+        },
+        {
+            "Current": "Assistant Professor of Applied Math and Computer Science",
+            "Honors": false,
+            "Institution": "Universitat Rovira i Virgili, Spain",
+            "Status": false,
+            "Trainee": "Jordi Duch, Ph.D.",
+            "Year_begin": "2007",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Software Consultant and HCI Researcher",
+            "Honors": false,
+            "Institution": "Mountain Wisdom",
+            "Status": false,
+            "Trainee": "Aleks Aris, Ph.D.",
+            "Year_begin": "2007",
+            "Year_end": "2009"
+        },
+        {
+            "Current": "Assistant Professor",
+            "Honors": false,
+            "Institution": "Indian Institute of Management, Udaipur",
+            "Status": false,
+            "Trainee": "Satyam Mukherjee, Ph.D.",
+            "Year_begin": "2009",
+            "Year_end": "2012"
+        },
+        {
+            "Current": "Product Manager",
+            "Honors": false,
+            "Institution": "Google",
+            "Status": false,
+            "Trainee": "Daniel McClary, Ph.D.",
+            "Year_begin": "2010",
+            "Year_end": "2011"
+        },
+        {
+            "Current": "Assistant Professor of Information Sciences",
+            "Honors": "Ramon y Cajal Fellowship",
+            "Institution": "Indiana University, Bloomington",
+            "Status": false,
+            "Trainee": "Filippo Radicchi, Ph.D.",
+            "Year_begin": "2010",
+            "Year_end": "2011"
+        },
+        {
+            "Current": "Research Scientist",
+            "Honors": false,
+            "Institution": "Google DeepMind",
+            "Status": false,
+            "Trainee": "Jane Wang, Ph.D.",
+            "Year_begin": "2010",
+            "Year_end": "2012"
+        },
+        {
+            "Current": "Assistant Professor of Physics",
+            "Honors": false,
+            "Institution": "Eckerd College",
+            "Status": false,
+            "Trainee": "David C. Mertens, Ph.D.",
+            "Year_begin": "2011",
+            "Year_end": "2013"
+        },
+        {
+            "Current": "Data Scientist",
+            "Honors": false,
+            "Institution": "Infobaleen LLC",
+            "Status": false,
+            "Trainee": "Andrea Lancichinetti, Ph.D.",
+            "Year_begin": "2012",
+            "Year_end": "2013"
+        },
+        {
+            "Current": "Postdoctoral Fellow",
+            "Honors": false,
+            "Institution": "Northwestern University",
+            "Status": false,
+            "Trainee": "Julia Poncela-Casasnovas",
+            "Year_begin": "2011",
+            "Year_end": "2014"
+        },
+        {
+            "Current": "Postdoctoral Fellow",
+            "Honors": false,
+            "Institution": "University of Chicago",
+            "Status": false,
+            "Trainee": "Beatriz Penalver, Ph.D.",
+            "Year_begin": "2015",
+            "Year_end": "2016"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "co-advised with R. Morimoto",
+            "Trainee": "Peter B. Winter, Ph.D.",
+            "Year_begin": "2015",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": false,
+            "Trainee": "Martin Gerlach, Ph.D.",
+            "Year_begin": "2016",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "co-advised with B. Uzzi",
+            "Trainee": "Diego Fregolent Mendes de Oliveira, Ph.D.",
+            "Year_begin": "2016",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": "DSI Scholar",
+            "Institution": false,
+            "Status": false,
+            "Trainee": "Thomas Stoeger, Ph.D.",
+            "Year_begin": "2016",
+            "Year_end": "present"
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": false,
+            "Trainee": "Yang Yang, Ph.D.",
+            "Year_begin": "2016",
+            "Year_end": "present"
+        }
+    ]
+}
