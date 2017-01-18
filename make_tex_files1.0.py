@@ -62,6 +62,14 @@ if __name__ == "__main__":
 
                 for i in range(len(data[key])-1, -1, -1):
                     data[key][i].update({'Number': str(i+1)})
+                    if filename == 'publications':
+                        data[key][i]['Authors'] = data[key][i]['Authors'].replace('Amaral LAN',
+                                                                                  '{\\textbf{Amaral LAN}}')
+                        logic_citations = bool(data[key][i]['GS_cites']) or \
+                                          bool(data[key][i]['Sc_cites']) or \
+                                          bool(data[key][i]['WoS_cites'])
+                        data[key][i].update({'Citations': logic_citations})
+
                     result = renderer.render_name(filename, data[key][i])
                     file_out.write(result)
 
