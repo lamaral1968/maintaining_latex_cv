@@ -98,6 +98,14 @@
             "Unit": "Data Science Initiative",
             "Year_begin": "2015",
             "Year_end": "present"
+        },
+        {
+            "Comment": false,
+            "Institution": "Northwestern University",
+            "Title": "Eratus Otis Haven Professor",
+            "Unit": false,
+            "Year_begin": "2017",
+            "Year_end": "2022"
         }
     ]
 }

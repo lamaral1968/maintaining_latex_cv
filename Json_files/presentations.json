@@ -857,6 +857,30 @@
             "Month": "Oct",
             "Type": "C.C. Mei Distinguished Speaker Series",
             "Year": "2016"
+        },
+        {
+            "Event": "Physics",
+            "Institution": "University of Illinois",
+            "Location": "Urbana, IL",
+            "Month": "Apr",
+            "Type": "Biological Physics",
+            "Year": "2017"
+        },
+        {
+            "Event": "Celebrating 20 years of JSMF\u2019s support for Complex Systems Science",
+            "Institution": "J. S. McDonnell Foundation",
+            "Location": "Cambridge, England",
+            "Month": "Jun",
+            "Type": false,
+            "Year": "2017"
+        },
+        {
+            "Event": "Advances in complex systems",
+            "Institution": "Lake Como School of Advanced Studies",
+            "Location": "Como, Italy",
+            "Month": "Jul",
+            "Type": false,
+            "Year": "2017"
         }
     ],
     "Order": [

@@ -13,7 +13,7 @@
             "Current": "Founder, Managing Partner",
             "Honors": "NSF IGERT Trainee; Runner-up, Distinguished Graduate Researcher Award",
             "Institution": "Datascope Analytics LLC",
-            "Status": "co-advised with J. Ottino",
+            "Status": "co-advised with Julio Ottino",
             "Trainee": "R. Dean Malmgren, Ph.D.",
             "Year_begin": "2005",
             "Year_end": "2009"
@@ -49,7 +49,7 @@
             "Current": "Director, Computational Toxicology",
             "Honors": "Runner-up, Distinguished Graduate Researcher Award",
             "Institution": "ScitoVation",
-            "Status": "co-advised with R. Morimoto",
+            "Status": "co-advised with Richard Morimoto",
             "Trainee": "Patrick D. McMullen, Ph.D.",
             "Year_begin": "2006",
             "Year_end": "2011"
@@ -109,10 +109,10 @@
             "Year_end": "2014"
         },
         {
-            "Current": "Postdoctoral Fellow",
+            "Current": "Data Scientist",
             "Honors": false,
-            "Institution": "Northwestern University",
-            "Status": "co-advised with R. Morimoto",
+            "Institution": "Datascope Analytics LLC",
+            "Status": "co-advised with Richard Morimoto",
             "Trainee": "Peter B. Winter, Ph.D.",
             "Year_begin": "2009",
             "Year_end": "2015"
@@ -121,19 +121,19 @@
             "Current": "Postdoctoral Fellow",
             "Honors": "Howard Hughes Medical Institute International Student Research Fellow; Chicago Biomedical Consortium Scholar Award, ",
             "Institution": "Caltech",
-            "Status": "co-advised with R. Carthew",
+            "Status": "co-advised with Richard Carthew",
             "Trainee": "Nicolas Pelaez, Ph.D.",
             "Year_begin": "2009",
             "Year_end": "2016"
         },
         {
-            "Current": false,
+            "Current": "Postdoctoral Fellow",
             "Honors": "NU Presidential Fellow",
-            "Institution": false,
-            "Status": "co-advised with M. Jewett",
+            "Institution": "University of Texas, Austin",
+            "Status": "co-advised with Michael Jewett",
             "Trainee": "Adam Hockenberry",
             "Year_begin": "2011",
-            "Year_end": "present"
+            "Year_end": "2017"
         },
         {
             "Current": false,
@@ -142,7 +142,7 @@
             "Status": false,
             "Trainee": "Jo\\~ao Moreira",
             "Year_begin": "2012",
-            "Year_end": "present"
+            "Year_end": "2017"
         },
         {
             "Current": false,
@@ -175,7 +175,7 @@
             "Current": false,
             "Honors": false,
             "Institution": false,
-            "Status": "co-advised with N. Bagheri",
+            "Status": "co-advised with Neda Bagheri",
             "Trainee": "Sebastian Bernasek",
             "Year_begin": "2014",
             "Year_end": "present"
@@ -193,7 +193,7 @@
             "Current": false,
             "Honors": false,
             "Institution": false,
-            "Status": "co-advised with C. Weiss",
+            "Status": "co-advised with Curtis Weiss",
             "Trainee": "Meagan Bechel",
             "Year_begin": "2016",
             "Year_end": "present"
@@ -202,31 +202,13 @@
             "Current": false,
             "Honors": false,
             "Institution": false,
-            "Status": false,
-            "Trainee": "Zhiheng Bai",
+            "Status": "co-advised with Adam Pah and John Hagan",
+            "Trainee": "Kathryn Albretch",
             "Year_begin": "2016",
             "Year_end": "present"
         }
     ],
     "Junior Faculty": [
-        {
-            "Current": "Associate Professor of Chemical Engineering",
-            "Honors": false,
-            "Institution": "Universitat Rovira i Virgili, Spain",
-            "Status": "Research Assistant Professor",
-            "Trainee": "Marta Sales-Pardo, Ph.D.",
-            "Year_begin": "2008",
-            "Year_end": "2009"
-        },
-        {
-            "Current": "Senior Research Professor",
-            "Honors": false,
-            "Institution": "ICREA, Catalonia, Spain",
-            "Status": "Research Assistant Professor",
-            "Trainee": "Roger Guimera, Ph.D.",
-            "Year_begin": "2008",
-            "Year_end": "2009"
-        },
         {
             "Current": "Associate Professor of Chemical and Biological Engineering",
             "Honors": false,
@@ -252,7 +234,7 @@
             "Status": "Assistant Professor -- K23 awardee",
             "Trainee": "Curtis Weiss, M.D., M.Sc.",
             "Year_begin": "2013",
-            "Year_end": "present"
+            "Year_end": "2017"
         },
         {
             "Current": false,
@@ -366,7 +348,7 @@
             "Honors": false,
             "Institution": "EUMETSAT",
             "Status": "Gaduate Student at Universidade de Aveiro",
-            "Trainee": "Joana Migu\\'ens, M.Sc.",
+            "Trainee": "Joana Miguens, M.Sc.",
             "Year_begin": "2006",
             "Year_end": false
         },
@@ -657,6 +639,87 @@
             "Trainee": "Beatrice Farb",
             "Year_begin": "2016",
             "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "MS Student at Northwestern University",
+            "Trainee": "Zhiheng Bai",
+            "Year_begin": "2016",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Akhil Shanishetti",
+            "Year_begin": "2017",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Student at Walter Payton College Prep (CPS)",
+            "Trainee": "Isabel Diersen",
+            "Year_begin": "2017",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Student at Evanston Township High School",
+            "Trainee": "Noah Guale",
+            "Year_begin": "2017",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Home-schooled Student",
+            "Trainee": "Simran Khunger",
+            "Year_begin": "2017",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Student at Evanston Township High School",
+            "Trainee": "Oscar Michel",
+            "Year_begin": "2017",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Mathias Newman",
+            "Year_begin": "2017",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Guobiao Li",
+            "Year_begin": "2017",
+            "Year_end": false
+        },
+        {
+            "Current": false,
+            "Honors": false,
+            "Institution": false,
+            "Status": "Undergraduate Student at Northwestern University",
+            "Trainee": "Lukas Gross",
+            "Year_begin": "2017",
+            "Year_end": false
         }
     ],
     "Postdoctoral Fellows": [
@@ -671,7 +734,7 @@
         },
         {
             "Current": "Senior Research Professor",
-            "Honors": "Fulbright Scholar; Catalan Research Award; James S. McDonnell Foundation Career Award;  Inaugural Erd\\\"os-R\\`enyi Prize in Network Science; German Physical Society Young Scientist Award for Socio- and Econophysics",
+            "Honors": "Fulbright Scholar; Catalan Research Award; James S. McDonnell Foundation Career Award;  Inaugural Erdos-R\\`enyi Prize in Network Science; German Physical Society Young Scientist Award for Socio- and Econophysics",
             "Institution": "ICREA, Catalonia, Spain",
             "Status": false,
             "Trainee": "Roger Guimer\\`a, Ph.D.",
@@ -733,7 +796,7 @@
             "Year_end": "2011"
         },
         {
-            "Current": "Assistant Professor of Information Sciences",
+            "Current": "Associate Professor of Information Sciences",
             "Honors": "Ramon y Cajal Fellowship",
             "Institution": "Indiana University, Bloomington",
             "Status": false,
@@ -790,10 +853,10 @@
             "Current": false,
             "Honors": false,
             "Institution": false,
-            "Status": "co-advised with R. Morimoto",
-            "Trainee": "Peter B. Winter, Ph.D.",
-            "Year_begin": "2015",
-            "Year_end": "present"
+            "Status": "co-advised with B. Uzzi",
+            "Trainee": "Diego Fregolent Mendes de Oliveira, Ph.D.",
+            "Year_begin": "2016",
+            "Year_end": "2017"
         },
         {
             "Current": false,
@@ -806,16 +869,7 @@
         },
         {
             "Current": false,
-            "Honors": false,
-            "Institution": false,
-            "Status": "co-advised with B. Uzzi",
-            "Trainee": "Diego Fregolent Mendes de Oliveira, Ph.D.",
-            "Year_begin": "2016",
-            "Year_end": "present"
-        },
-        {
-            "Current": false,
-            "Honors": "DSI Scholar",
+            "Honors": "Data Science Scholar",
             "Institution": false,
             "Status": false,
             "Trainee": "Thomas Stoeger, Ph.D.",

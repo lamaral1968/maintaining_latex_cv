@@ -2,7 +2,7 @@
     "External Service": [
         {
             "Comment": false,
-            "Institution": "Nature, Science, JAMA, PNAS, Royal Society journals, AIChE Journal, Physical Review journals, PLOS journals, BMC journals, etc.",
+            "Institution": "Nature and Nature Journals, Science and Science Journals, JAMA, PNAS, Royal Society journals, AIChE Journal, Physical Review journals, PLOS journals, BMC journals, etc.",
             "Title": "Reviewer",
             "Year_begin": "1995",
             "Year_end": "present"
@@ -12,7 +12,7 @@
             "Institution": "American Physical Society",
             "Title": "Organizer",
             "Year_begin": "2003",
-            "Year_end": "present"
+            "Year_end": "2005"
         },
         {
             "Comment": false,
@@ -80,9 +80,9 @@
         {
             "Comment": "Complex Systems Program",
             "Institution": "James S. McDonnell Foundation",
-            "Title": "Advisory Board ",
+            "Title": "Advisory Board",
             "Year_begin": "2009",
-            "Year_end": "present"
+            "Year_end": "2016"
         },
         {
             "Comment": "CBC Junior Scholar",
@@ -113,11 +113,32 @@
             "Year_end": "present"
         },
         {
+            "Comment": "International Workshop on Complex Networks and their Applications",
+            "Institution": "Italian Society for Chaos and Complexity (SICC)",
+            "Title": "Program Committee",
+            "Year_begin": "2013",
+            "Year_end": "2015"
+        },
+        {
             "Comment": "Topical Group on Statistical and Nonlinear Physics",
             "Institution": "American Physical Society",
             "Title": "At large member, Executive Committee",
             "Year_begin": "2013",
             "Year_end": "2016"
+        },
+        {
+            "Comment": "Workshop on Network Science",
+            "Institution": "Society for Industrial and Applied Mathematics (SIAM)",
+            "Title": "Program Committee",
+            "Year_begin": "2017",
+            "Year_end": false
+        },
+        {
+            "Comment": "3rd International Conference on Computational Social Science",
+            "Institution": "Leibniz Institute for the Social Sciences",
+            "Title": "Program Committee",
+            "Year_begin": "2017",
+            "Year_end": false
         }
     ],
     "Northwestern University Service": [
@@ -131,14 +152,14 @@
         {
             "Comment": "Undergraduate Education Committee",
             "Institution": "Dept. of Chemical Engineering",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2003",
             "Year_end": "2005"
         },
         {
             "Comment": "Computing Committee",
             "Institution": "School of Engineering",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2003",
             "Year_end": "2014"
         },
@@ -152,35 +173,35 @@
         {
             "Comment": "Planning Committee",
             "Institution": "Chemistry of Life Processes Institute",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2004",
             "Year_end": "2006"
         },
         {
             "Comment": "Faculty Search Committee",
             "Institution": "Dept. of Physics and Astronomy",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2004",
             "Year_end": "2005"
         },
         {
             "Comment": "Faculty Search Committee",
             "Institution": "Dept. of Chemical Engineering",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2004",
             "Year_end": "2005"
         },
         {
             "Comment": "Executive Committee",
             "Institution": "Northwestern Institute on Complex Systems",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2004",
             "Year_end": "present"
         },
         {
             "Comment": "Graduate Admissions Committee",
             "Institution": "Inter-departmental Biological Sciences Program",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2005",
             "Year_end": false
         },
@@ -194,7 +215,7 @@
         {
             "Comment": "Faculty Search Committee",
             "Institution": "Dept. of Engineering Sciences and Applied Mathematics ",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2005",
             "Year_end": "2006"
         },
@@ -222,7 +243,7 @@
         {
             "Comment": "Executive Committee",
             "Institution": "Computational Biology and Bioinformatics",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2005",
             "Year_end": "2006"
         },
@@ -236,35 +257,35 @@
         {
             "Comment": "Faculty Search Committee",
             "Institution": "Dept. of Chemical and Biological Engineering",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2006",
             "Year_end": "2007"
         },
         {
             "Comment": "Executive Committee",
             "Institution": "NU Clinical and Translational Sciences (NU-CATS) Institute",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2006",
             "Year_end": false
         },
         {
             "Comment": "Bioinformatics Task Force",
             "Institution": "School of Medicine",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2006",
             "Year_end": false
         },
         {
             "Comment": "One Northwestern Task Force on Integrated Enterprise",
             "Institution": "Office of the Provost",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2007",
             "Year_end": "2008"
         },
         {
             "Comment": "Graduate Studies Committee",
             "Institution": "Dept. of Chemical and Biological Engineering",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2007",
             "Year_end": "present"
         },
@@ -276,7 +297,7 @@
             "Year_end": "2016"
         },
         {
-            "Comment": "Graduate Studies Committee",
+            "Comment": "Graduate Studies",
             "Institution": "Dept. of Chemical and Biological Engineering",
             "Title": "Director",
             "Year_begin": "2008",
@@ -285,28 +306,28 @@
         {
             "Comment": "Searle Leadership Fund Selection Committee",
             "Institution": "Office of Research",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2009",
             "Year_end": "present"
         },
         {
             "Comment": "Limited Submissions Committee",
             "Institution": "Office of Research",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2010",
             "Year_end": "2014"
         },
         {
-            "Comment": "Purple Sky Workgroup, Strategic Plan",
+            "Comment": "Strategic Plan",
             "Institution": "Office of the Provost",
-            "Title": "Co-chair",
+            "Title": "Co-chair, Purple Sky Workgroup",
             "Year_begin": "2010",
             "Year_end": "2011"
         },
         {
             "Comment": "NUIN Graduate Program Review ",
             "Institution": "The Graduate School",
-            "Title": "Committee Chair",
+            "Title": "Chair",
             "Year_begin": "2011",
             "Year_end": false
         },
@@ -327,15 +348,36 @@
         {
             "Comment": "Promotion and Tenure Committee",
             "Institution": "School of Engineering",
-            "Title": "Member",
+            "Title": false,
             "Year_begin": "2014",
             "Year_end": "present"
         },
         {
             "Comment": "Data Science Initiative ",
             "Institution": "Office of Research",
-            "Title": "Steering Committee Chair ",
+            "Title": "Steering Committee Chair",
             "Year_begin": "2015",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "One Book",
+            "Institution": "Office of the President",
+            "Title": "Steering Committee",
+            "Year_begin": "2016",
+            "Year_end": "2017"
+        },
+        {
+            "Comment": "Advisory Council on Faculty Diversity and Excellence",
+            "Institution": "Office of the Provost",
+            "Title": false,
+            "Year_begin": "2016",
+            "Year_end": "present"
+        },
+        {
+            "Comment": "Advisory Council on Women Faculty",
+            "Institution": "Office of the Provost",
+            "Title": false,
+            "Year_begin": "2016",
             "Year_end": "present"
         }
     ],
