@@ -1,5 +1,5 @@
 __author__ = "Amaral LAN"
-__copyright__ = "Copyright 2017, Amaral LAN"
+__copyright__ = "Copyright 2017-2018, Amaral LAN"
 __credits__ = ["Amaral LAN"]
 __license__ = "GPL"
 __version__ = "1.0"
@@ -8,110 +8,95 @@ __email__ = "amaral@northwestern.edu"
 __status__ = "Development"
 
 import pystache
-import json
-from my_settings import NAMES_TO_SECTIONS
-
-
-def match_ids(key, i, data, impact):
-    """
-    Match paper_id from publications and impact Json files
-
-    :param key: str
-    :param i: int
-    :param data: dict
-    :param impact: dict
-
-    :return: index: int
-    """
-    #
-    index = False  # This initialization is here to avoid a program crash when trying
-                   # to match papers to impact.json file
-    paper_id = data[key][i]['Paper_id']
-    for j in range(len(impact[key])):
-        if impact[key][j]['Paper_id'] == paper_id:
-            index = j
-            break
-
-    return index
+import pymongo
+from copy import copy
+from my_settings import SECTION_NAMES, COLLECTION_NAMES
+from my_mongo_db_login import DB_LOGIN_INFO, DATABASE_NAME
 
 
 if __name__ == "__main__":
     pystache.defaults.DELIMITERS = ('\|', '|/')  # Change delimiters to avoid conflicts with TeX
     renderer = pystache.Renderer(search_dirs=['./Formatting_files'])
 
-    # Load citations
-    json_file = './Json_files/impact.json'
-    with open(json_file, 'r', encoding='utf-8') as file_in:
-        impact = json.load(file_in)
+    connection = pymongo.MongoClient(DB_LOGIN_INFO['credentials'], DB_LOGIN_INFO['port'])
+    db = connection[DATABASE_NAME]
+    print('\nOpened connection')
 
-    # Create contact and title block
-    json_file = './Json_files/bio-info.json'
-    with open(json_file, 'r', encoding='utf-8') as file_in:
-        data = json.load(file_in)
-
-    print(data['Sheet1'][0])
-
+    # Create tex files for title block
+    #
+    collection = db['bio-info']
+    data = collection.find_one()
     for filename in ['variables', 'title_block']:
         tex_file = './Tex_files/' + filename + '.tex'
         print('\n' + filename + '\n' + tex_file )
 
         with open(tex_file, 'w', encoding='utf-8') as file_out:
-            result = renderer.render_name(filename, data['Sheet1'][0])
+            result = renderer.render_name(filename, data)
             file_out.write(result)
 
     # Create tex files for all other sections of CV
-    for filename in NAMES_TO_SECTIONS.keys():
+    #
+    section_list = copy( list(SECTION_NAMES.keys()) )
+    section_list.remove('bio-info')
+    for filename in section_list:
         tex_file = './Tex_files/' + filename + '.tex'
         print('\n' + filename + '\n' + tex_file )
 
         with open(tex_file, 'w', encoding='utf-8') as file_out:
             # Create section header
-            result = renderer.render_name('section',
-                                          {'NAME': NAMES_TO_SECTIONS[filename],
-                                           'Clean_NAME': list(NAMES_TO_SECTIONS[filename].split())[0]}
+            if SECTION_NAMES[filename] is not None:
+                result = renderer.render_name('section', {'NAME': SECTION_NAMES[filename],
+                                                          'Clean_NAME': list(SECTION_NAMES[filename].split())[0]}
                                           )
-            file_out.write(result)
+                file_out.write(result)
 
-            json_file = './Json_files/' + filename + '.json'
-            with open(json_file, 'r', encoding = 'utf-8') as file_in:
-                data = json.load(file_in)
-
-            order_of_subsections = data['Order']
-            print(order_of_subsections)
-            for key in order_of_subsections:
-                if key != 'Sheet1':
-                    # Create subsection header in case there are multiple worksheets
-                    print(key)
-                    result = renderer.render_name('subsection',
-                                                  {'NAME': key,
-                                                   'Clean_NAME': key.replace(' ', '_')}
-                                                  )
+            for name in COLLECTION_NAMES[filename]:
+                if name is None:
+                    name = filename
+                else:
+                    print(name)
+                    result = renderer.render_name('subsection', {'NAME': name, 'Clean_NAME': name.replace(' ', '_')})
                     file_out.write(result)
+                    name = filename + '_' + name.lower()
 
-                for i in range(len(data[key])-1, -1, -1):
-                    data[key][i].update({'Number': str(i+1)})
+                data = []
+                for document in db[name].find():
+                    data.append(document)
+
+                for i in range(len(data)-1, -1, -1):
                     if filename == 'publications':
-                        index = match_ids(key, i, data, impact)
-                        #print(key, index, impact[key][index])
-                        data[key][i]['Authors'] = data[key][i]['Authors'].replace('Amaral LAN',
-                                                                                  '{\\textbf{Amaral LAN}}')
+                        data[i]['Authors'] = data[i]['Authors'].replace('Amaral LAN', '{\\textbf{Amaral LAN}}')
 
                         try:
-                            logic_citations = bool(impact[key][index]['GS_cites']) or \
-                                              bool(impact[key][index]['Sc_cites']) or \
-                                              bool(impact[key][index]['WoS_cites'])
-
-                            data[key][i].update({'GS_cites': impact[key][index]['GS_cites'],
-                                                 'WoS_cites': impact[key][index]['WoS_cites'],
-                                                 'Sc_cites': impact[key][index]['Sc_cites']})
+                            logic_citations = bool(data[i]['GS_cites']) or \
+                                              bool(data[i]['Scopus_cites']) or \
+                                              bool(data[i]['WoS_cites'])
+                            logic_altmetrics = bool(data[i]['Alt_score'])
                         except:
                             logic_citations = False
-                        data[key][i].update({'Citations': logic_citations})
+                            logic_altmetrics = False
 
-                    result = renderer.render_name(filename, data[key][i])
-                    file_out.write(result)
+                        data[i].update({'Citations': logic_citations, 'Altmetrics': logic_altmetrics})
+                    else:
+                        result = renderer.render_name(filename, data[i])
+                        file_out.write(result)
+
+                # Sort publications by year of publication and then by title
+                #
+                if filename == 'publications':
+                    data.sort(key = lambda k: (k['Year'], k['Title']))
+                    for i in range(len(data)-1, -1, -1):
+                        data[i].update({'Number': str(i + 1)})
+                        if 'Alt_score' in data[i].keys():
+                            temp_string = data[i]['Alt_score']
+                            if temp_string != False:
+                                data[i]['Alt_score'] = temp_string.replace('%', '\\%')
+                        # print(data[i]['Citations'], data[i]['Altmetrics'], temp_string)
+                        result = renderer.render_name(filename, data[i])
+                        file_out.write(result)
 
                 # Inelegant, but effective, way to add space between subsections
+                #
                 file_out.write('\\vspace*{0.2cm}')
 
 

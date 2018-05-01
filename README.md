@@ -16,7 +16,7 @@ See examples provided.
 
 Note the use of `-` for empty fields!
 
-Please do not change variable names!
+**Do not change variable names unless you know what you are doing!**
 
 ### appointments.xlsx
 
@@ -70,18 +70,33 @@ want to change the format of the CV, and know LaTeX, you can edit the `*.mustach
 You must edit `CV-Preamble.tex` (located in the folder `Formatting_files`) in order to change other aspects of the
 CV such as font types and spacing between items.
 
-You must edit `myCV.tex` (located in the main directory) in order to ignore some of the sections, reorder sections, change page format,
-and so on.
+You must edit `myCV.tex` (located in the main directory) in order to ignore some of the sections, reorder sections,
+change page format, and so on.
+
 
 ## Generating CV
 
 In order to create your CV, you will need to:
 
-1. Run `make_tex_files.py`
+1. Create Excel files
+
+2. Update `my_mongo_db_login.py`
+
+3. Run `create_mongo_db.py`
+
+4. Run `scrape_doi.py`
+
+5. Run `scrape_altmetrics.py`
+
+6. Run `scrape_scopus_citations.py`
+
+7. Run `scrape_google_scholar_citations.py`
+
+8. Run `make_tex_files.py`
 
 This will create a set of `*.tex` files that are stored in the folder `Tex_files`.
 
-2. Compile `myCV.tex`
+9. Compile `myCV.tex`
 
-You will need to compile the file several times in order for the value of some variables (such as total
+You will need to compile the file a couple of times in order for the value of some variables (such as total
 number of pages) to propagate.
