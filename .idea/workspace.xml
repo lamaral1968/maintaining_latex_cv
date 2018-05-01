@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de109811-d615-4167-9d9b-22338bf5a3b8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scrape_altmetrics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrape_doi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrape_google_scholar_citations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scrape_scopus_citations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_mongo_db_loginEXAMPLE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/affiliations.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data_files/affiliations.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/appointments.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data_files/appointments.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/mentoring.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data_files/mentoring.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/presentations.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data_files/presentations.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/publications.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data_files/publications.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/service.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data_files/service.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/support.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data_files/support.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_files/~$publications.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Formatting_files/publications.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/Formatting_files/publications.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/affiliations.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/appointments.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/bio-info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/education.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/honors.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/impact.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/mentoring.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/presentations.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/publications.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/service.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Json_files/support.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/affiliations.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/affiliations.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/appointments.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/appointments.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/mentoring.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/mentoring.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/mentoring.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/mentoring.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/presentations.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/presentations.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/publications.aux" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/publications.aux" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/publications.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/publications.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/service.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/service.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tex_files/support.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Tex_files/support.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extra.txt" beforeDir="false" afterPath="$PROJECT_DIR$/extra.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fix_citations_mess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/make_json_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_mongo_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/make_tex_files1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/make_tex_files1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myCV.aux" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myCV.dvi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myCV.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myCV.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myCV.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/myCV.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myCV.ps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape_citations_of_publications.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_mongo_db_login.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -63,7 +18,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1500">
@@ -84,8 +39,17 @@
       <file leaf-file-name="my_mongo_db_login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my_mongo_db_login.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my_mongo_db_loginEXAMPLE.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_mongo_db_loginEXAMPLE.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -159,7 +123,6 @@
         <option value="$PROJECT_DIR$/scrape_doi.py" />
         <option value="$PROJECT_DIR$/Formatting_files/publications.mustache" />
         <option value="$PROJECT_DIR$/my_settings.py" />
-        <option value="$PROJECT_DIR$/my_mongo_db_login.py" />
         <option value="$PROJECT_DIR$/scrape_scopus_citations.py" />
         <option value="$PROJECT_DIR$/create_mongo_db.py" />
         <option value="$PROJECT_DIR$/scrape_altmetrics.py" />
@@ -167,6 +130,8 @@
         <option value="$PROJECT_DIR$/make_tex_files.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/my_mongo_db_login.py" />
+        <option value="$PROJECT_DIR$/my_mongo_db_loginEXAMPLE.py" />
       </list>
     </option>
   </component>
@@ -450,6 +415,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="216" y="73" width="1269" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1963141" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -480,7 +446,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helio_make_tex_files.py" />
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -677,13 +642,6 @@
     <entry file="file://$PROJECT_DIR$/Json_files/bio-info.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Formatting_files/publications.mustache">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -708,13 +666,6 @@
           <folding>
             <element signature="e#241#256#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_mongo_db_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -773,6 +724,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1500">
           <caret line="100" column="45" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_mongo_db_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_mongo_db_loginEXAMPLE.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
         </state>
       </provider>
     </entry>
